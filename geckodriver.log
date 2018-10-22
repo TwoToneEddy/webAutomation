@@ -1,0 +1,152 @@
+1540236716035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xLyosIzEn73g"
+1540236717599	Marionette	INFO	Listening on port 39149
+1540236717642	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540236717697	Marionette	DEBUG	[2147483649] Frame script loaded
+1540236717699	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 5331, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540236720463	Marionette	INFO	Stopped listening on port 39149
+1540236747796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1K6VjHmiMzeh"
+1540236749354	Marionette	INFO	Listening on port 35187
+1540236749420	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540236749467	Marionette	DEBUG	[2147483649] Frame script loaded
+1540236749476	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 5535, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540236751466	Marionette	INFO	Stopped listening on port 35187
+1540237788501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7FbCkiF1MIao"
+1540237790143	Marionette	INFO	Listening on port 42037
+1540237790210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540237790271	Marionette	DEBUG	[2147483649] Frame script loaded
+1540237790277	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 6101, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540237792500	Marionette	INFO	Stopped listening on port 42037
+1540237838844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UWla0BDeYW3k"
+1540237840383	Marionette	INFO	Listening on port 44835
+1540237840454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540237840501	Marionette	DEBUG	[2147483649] Frame script loaded
+1540237840502	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 6319, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540237845308	Marionette	INFO	Stopped listening on port 44835
+1540238007748	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EgHUGgDvPgW1"
+1540238009315	Marionette	INFO	Listening on port 34857
+1540238009356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238009410	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238009412	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 6623, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238011067	Marionette	INFO	Stopped listening on port 34857
+1540238128810	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bDTjnyA6PwdW"
+1540238130413	Marionette	INFO	Listening on port 36447
+1540238130423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238130471	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238130484	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 6837, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238132545	Marionette	INFO	Stopped listening on port 36447
+1540238237887	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TQrFeD6tbhD5"
+1540238239486	Marionette	INFO	Listening on port 40521
+1540238239503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238239568	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238239576	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 7047, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238248200	Marionette	INFO	Stopped listening on port 40521
+1540238260738	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gDsUkiTz8nUM"
+1540238262389	Marionette	INFO	Listening on port 38691
+1540238262456	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238262500	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238262501	Marionette	DEBUG	[2147483649] Frame script registered
+1540238262524	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238262912	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238263114	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238263305	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 7259, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238265006	Marionette	INFO	Stopped listening on port 38691
+1540238500182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LZOL2xBZmSCV"
+1540238501764	Marionette	INFO	Listening on port 46805
+1540238501792	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238501842	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238501858	Marionette	DEBUG	[2147483649] Frame script registered
+1540238501879	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238503239	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238503622	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238503792	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 7590, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238507492	Marionette	INFO	Stopped listening on port 46805
+1540238527389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Qw8ccjlmA1Aj"
+1540238528897	Marionette	INFO	Listening on port 37343
+1540238529006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238529051	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238529053	Marionette	DEBUG	[2147483649] Frame script registered
+1540238529078	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238529543	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238529753	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238529928	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 7808, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238535458	Marionette	INFO	Stopped listening on port 37343
+1540238560786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.caQBmsXfAoyX"
+1540238562397	Marionette	INFO	Listening on port 46457
+1540238562492	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238562543	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238562543	Marionette	DEBUG	[2147483649] Frame script registered
+1540238562555	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238563005	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238563288	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238563462	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 8025, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238565512	Marionette	INFO	Stopped listening on port 46457
+1540238587303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.h3GjMQ3C8Hdh"
+1540238588921	Marionette	INFO	Listening on port 42161
+1540238589011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238589066	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238589073	Marionette	DEBUG	[2147483649] Frame script registered
+1540238589090	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238589845	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238590029	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238590165	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 8245, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238593075	Marionette	INFO	Stopped listening on port 42161
+1540238607802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z9PxDm37UFqG"
+1540238609348	Marionette	INFO	Listening on port 35963
+1540238609416	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238609462	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238609463	Marionette	DEBUG	[2147483649] Frame script registered
+1540238609489	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238609919	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238610215	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238610379	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 8462, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238622447	Marionette	INFO	Stopped listening on port 35963
+1540238662688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vRexjcfyaXDU"
+1540238664259	Marionette	INFO	Listening on port 41399
+1540238664301	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238664362	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238664373	Marionette	DEBUG	[2147483649] Frame script registered
+1540238664395	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238664808	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238665034	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238665193	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 8699, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238668099	Marionette	INFO	Stopped listening on port 41399
+1540238715348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FVjA6qdrDi24"
+1540238716961	Marionette	INFO	Listening on port 41109
+1540238717061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238717107	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238717109	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 8918, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238721842	Marionette	INFO	Stopped listening on port 41109
+1540238791184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LZF2qzwDPP7F"
+1540238792780	Marionette	INFO	Listening on port 36217
+1540238792792	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540238792857	Marionette	DEBUG	[2147483649] Frame script loaded
+1540238792866	Marionette	DEBUG	[2147483649] Frame script registered
+1540238792897	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540238793367	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+1540238793527	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+1540238793688	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+[Parent 9224, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540238795968	Marionette	INFO	Stopped listening on port 36217
