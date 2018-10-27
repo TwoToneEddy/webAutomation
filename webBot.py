@@ -1,3 +1,12 @@
+#Must have the file localVariables.txt in /home with the following content:
+#surnameStr,hudson
+#sortcode1Str,99
+#sortcode2Str,99
+#sortcode3Str,99
+#accountNoStr,99999999
+#webSiteStr,https://bank.barclays.co.uk/olb/auth/#MobiLoginLink_displayWithNoCookieWithAccount.action
+#geckoPathStr,/home/lee/Downloads/geckodriver
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
