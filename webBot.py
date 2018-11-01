@@ -25,6 +25,8 @@ class webBot(object):
                 self.localVariables[key] = val.strip('\n')
 	
     def login(self):
+	#First login screen
+	#Get all elements needed
 	self.browser.get(self.localVariables['webSiteStr'])
 	self.surname=self.browser.find_element_by_name('surname')
 	self.sc1=self.browser.find_element_by_name('sortCodeSet1')
@@ -32,12 +34,21 @@ class webBot(object):
 	self.sc3=self.browser.find_element_by_name('sortCodeSet3')
 	self.accNo=self.browser.find_element_by_name('accountNumber')
 	self.nextButton=self.browser.find_element_by_id('Next')
-
+	
+	#Input required credentials into fields
 	self.surname.send_keys(self.localVariables['surnameStr'])
 	self.sc1.send_keys(self.localVariables['sortcode1Str'])
 	self.sc2.send_keys(self.localVariables['sortcode2Str'])
 	self.sc3.send_keys(self.localVariables['sortcode3Str'])
 	self.accNo.send_keys(self.localVariables['accountNoStr'])
+	self.nextButton.click()
+
+	#Second login screen
+	self.passcode=self.browser.find_element_by_id('passcode')
+
+	self.passcode.send_keys(self.localVariables['passcode'])
+
+	
 def main():
     webBot()
 
