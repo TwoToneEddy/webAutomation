@@ -179,3 +179,21 @@ JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, lin
 [Parent 3420, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 [Parent 3420, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 1541105983844	Marionette	INFO	Stopped listening on port 41471
+1541106668298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YJBlj1zQVEUq"
+1541106670083	Marionette	INFO	Listening on port 44573
+1541106670111	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+
+(/usr/lib/firefox/firefox:5678): dconf-WARNING **: 21:11:16.049: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 5568, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5568, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541106705361	Marionette	INFO	Stopped listening on port 44573
+1541107491646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.a02jxfpDsD7c"
+1541107493493	Marionette	INFO	Listening on port 40707
+1541107493564	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+
+(/usr/lib/firefox/firefox:2443): dconf-WARNING **: 21:25:00.917: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541107504138	Marionette	INFO	Stopped listening on port 40707
