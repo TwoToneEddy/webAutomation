@@ -3,6 +3,9 @@
 https://bank.barclays.co.uk/olb/authlogin/loginAppContainer.do#/identification
 First login page:
 //input[@id='surname0']
+
+//div[4]/div[1]/div[@class='row validation-combo' and 1]/span[@class='col-5-xl col-4-m col-6-s col-6-xs' and 1]/div[@class='radio-control' and 1]/label[@class='narrow' and 1]
+
 //input[@id='cardNumber0']
 //input[@id='cardNumber1']
 //input[@id='cardNumber2']
