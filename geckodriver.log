@@ -197,3 +197,801 @@ JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, lin
 
 (/usr/lib/firefox/firefox:2443): dconf-WARNING **: 21:25:00.917: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 1541107504138	Marionette	INFO	Stopped listening on port 40707
+1541193331201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NKDQh6wR3f7K"
+1541193334298	Marionette	INFO	Listening on port 43877
+1541193334343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+
+(/usr/lib/firefox/firefox:5532): dconf-WARNING **: 21:15:38.075: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 5401, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541193489110	Marionette	INFO	Stopped listening on port 43877
+1541193492061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bnK05yB25dtB"
+1541193493720	Marionette	INFO	Listening on port 39649
+1541193493774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+
+(/usr/lib/firefox/firefox:6041): dconf-WARNING **: 21:18:15.871: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+(/usr/lib/firefox/firefox:6108): dconf-WARNING **: 21:23:13.991: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 5926, Gecko_IOThread] WARNING: pipe error (123): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5926, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541193873530	Marionette	INFO	Stopped listening on port 39649
+1541193875576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xyIXh6TRd0iW"
+1541193877280	Marionette	INFO	Listening on port 39417
+1541193877383	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+[Parent 6740, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6740, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541193910971	Marionette	INFO	Stopped listening on port 39417
+1541193913268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XzNRy9BgmL1H"
+1541193915062	Marionette	INFO	Listening on port 37701
+1541193915077	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+1541194211573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.toWlHW7O2FWE"
+1541194213330	Marionette	INFO	Listening on port 46185
+1541194213379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+[Parent 7409, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7409, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541194223820	Marionette	INFO	Stopped listening on port 46185
+1541194280956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iXly7xfVtUqk"
+1541194282790	Marionette	INFO	Listening on port 39059
+1541194282870	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+[Parent 7655, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7655, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541194291165	Marionette	INFO	Stopped listening on port 39059
+1541194343600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PwCKHfwPbjdn"
+1541194345390	Marionette	INFO	Listening on port 41155
+1541194345420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+[Parent 7891, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7891, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541194356999	Marionette	INFO	Stopped listening on port 41155
+1541194367474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZgxfKfSpNSEw"
+1541194369238	Marionette	INFO	Listening on port 35849
+1541194369283	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+[Parent 8117, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8117, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541194375902	Marionette	INFO	Stopped listening on port 35849
+1541194424940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fZ9lXAdHcmAe"
+1541194426632	Marionette	INFO	Listening on port 45137
+1541194426655	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+[Parent 8366, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+1541194438587	Marionette	INFO	Stopped listening on port 45137
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5MSTV6X&cid=1272413576.1541194484, line 103: unreachable code after return statement
+1541194490483	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6VT6eNpSTAFD"
+1541194492250	Marionette	INFO	Listening on port 45541
+1541194492299	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1541194497687	Marionette	INFO	Stopped listening on port 45541
+
+(/usr/lib/firefox/firefox:7081): dconf-WARNING **: 21:36:35.167: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541194644400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kCpflwff3OvV"
+1541194646164	Marionette	INFO	Listening on port 40753
+1541194646207	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+
+(/usr/lib/firefox/firefox:9036): dconf-WARNING **: 21:37:28.499: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 8928, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8928, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541194653898	Marionette	INFO	Stopped listening on port 40753
+1541194815381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RIQoiw5CyXjs"
+1541194817117	Marionette	INFO	Listening on port 32959
+1541194817192	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+[Parent 9205, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541194828718	Marionette	INFO	Stopped listening on port 32959
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 6965, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6965, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6965, Gecko_IOThread] WARNING: pipe error (148): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6965, Gecko_IOThread] WARNING: pipe error (118): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6965, Gecko_IOThread] WARNING: pipe error (146): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541195222161	Marionette	INFO	Stopped listening on port 37701
+1541197192163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PM9FGR5Ivl9I"
+1541197194371	Marionette	INFO	Listening on port 33449
+1541197194470	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+
+(/usr/lib/firefox/firefox:2024): dconf-WARNING **: 22:19:56.911: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 1891, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197233868	Marionette	INFO	Stopped listening on port 33449
+1541197242652	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hWRkJ4eyPZwo"
+1541197244306	Marionette	INFO	Listening on port 39603
+1541197244366	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2285, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197260288	Marionette	INFO	Stopped listening on port 39603
+1541197276015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iIfsfbXgxXaV"
+1541197277779	Marionette	INFO	Listening on port 36799
+1541197277827	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: resource://gre/modules/ActorManagerChild.jsm, line 176: TypeError: this.listeners is null
+JavaScript error: resource://gre/modules/ActorManagerChild.jsm, line 176: TypeError: this.listeners is null
+JavaScript error: resource://gre/modules/ActorManagerChild.jsm, line 146: TypeError: this.listeners is null
+JavaScript error: resource://gre/modules/ActorManagerChild.jsm, line 146: TypeError: this.listeners is null
+1541197427404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YhM70pmN5Njk"
+1541197429214	Marionette	INFO	Listening on port 43941
+1541197429330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 2995, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 2995, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197435623	Marionette	INFO	Stopped listening on port 43941
+1541197544171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1g4MwC1XM2pT"
+1541197546089	Marionette	INFO	Listening on port 37661
+1541197546187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 3241, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3241, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197550888	Marionette	INFO	Stopped listening on port 37661
+1541197668801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hK5XJH7RQI92"
+1541197670511	Marionette	INFO	Listening on port 42525
+1541197670630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 3514, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3514, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197675611	Marionette	INFO	Stopped listening on port 42525
+
+(/usr/lib/firefox/firefox:2767): dconf-WARNING **: 22:28:33.414: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541197816146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xe6ul882pNz6"
+1541197817869	Marionette	INFO	Listening on port 37461
+1541197817957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 3797, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3797, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197824463	Marionette	INFO	Stopped listening on port 37461
+1541197838631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kNMeGuoNC4Zl"
+1541197840365	Marionette	INFO	Listening on port 42329
+1541197840439	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4035, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4035, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197844497	Marionette	INFO	Stopped listening on port 42329
+1541197862948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jAJetwOIVqJk"
+1541197864707	Marionette	INFO	Listening on port 32927
+1541197864758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 4255, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4255, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197872503	Marionette	INFO	Stopped listening on port 32927
+1541197881360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SOOqyl1EZmyd"
+1541197883057	Marionette	INFO	Listening on port 42685
+1541197883068	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 4482, Gecko_IOThread] WARNING: pipe error (102): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4482, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197893749	Marionette	INFO	Stopped listening on port 42685
+1541197914583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.STrrO6xuYgwV"
+1541197916281	Marionette	INFO	Listening on port 39687
+1541197916293	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 4706, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4706, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541197922257	Marionette	INFO	Stopped listening on port 39687
+1541198016754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wOSbLRAi9oil"
+1541198018474	Marionette	INFO	Listening on port 38411
+1541198018577	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 4945, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4945, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198022911	Marionette	INFO	Stopped listening on port 38411
+1541198045727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IsVCZYeCOVdV"
+1541198047494	Marionette	INFO	Listening on port 35421
+1541198047545	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 5182, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5182, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198053469	Marionette	INFO	Stopped listening on port 35421
+1541198066458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.C8TKtcP1JyIs"
+1541198068141	Marionette	INFO	Listening on port 44327
+1541198068167	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 5417, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198073419	Marionette	INFO	Stopped listening on port 44327
+1541198084490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l0gL64u7IBcA"
+1541198086334	Marionette	INFO	Listening on port 38591
+1541198086407	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 5647, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5647, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198090618	Marionette	INFO	Stopped listening on port 38591
+1541198295062	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SUSQxqplb6Wj"
+1541198296927	Marionette	INFO	Listening on port 38727
+1541198296974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 5937, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198303357	Marionette	INFO	Stopped listening on port 38727
+1541198316360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tQIg9fwlMzYA"
+1541198318112	Marionette	INFO	Listening on port 35959
+1541198318176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 6177, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6177, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198322335	Marionette	INFO	Stopped listening on port 35959
+1541198424748	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.atLrBHR4eHuK"
+1541198426538	Marionette	INFO	Listening on port 41715
+1541198426563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 6419, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6419, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198433708	Marionette	INFO	Stopped listening on port 41715
+1541198466225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VkCR9vdCgbKA"
+1541198467984	Marionette	INFO	Listening on port 38241
+1541198468036	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 6654, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198472013	Marionette	INFO	Stopped listening on port 38241
+1541198596708	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sWrBJLByhUaf"
+1541198598472	Marionette	INFO	Listening on port 38289
+1541198598518	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6918, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198611547	Marionette	INFO	Stopped listening on port 38289
+1541198666008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1HYpgL8de3Az"
+1541198667699	Marionette	INFO	Listening on port 46425
+1541198667721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 7163, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198671811	Marionette	INFO	Stopped listening on port 46425
+1541198680374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zN9qijJfyUOe"
+1541198682121	Marionette	INFO	Listening on port 32877
+1541198682185	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 7401, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7401, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198686857	Marionette	INFO	Stopped listening on port 32877
+1541198705538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.H7WFrnU1gG7z"
+1541198707263	Marionette	INFO	Listening on port 38919
+1541198707345	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 7623, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7623, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198714149	Marionette	INFO	Stopped listening on port 38919
+1541198728715	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.k4Ba4B2bMno3"
+1541198730457	Marionette	INFO	Listening on port 39565
+1541198730525	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7854, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198735553	Marionette	INFO	Stopped listening on port 39565
+1541198752078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IHqJTep75TVS"
+1541198753780	Marionette	INFO	Listening on port 43543
+1541198753790	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 8071, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541198761934	Marionette	INFO	Stopped listening on port 43543
+1541199055614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nP0lYtSLh9hi"
+1541199057402	Marionette	INFO	Listening on port 37485
+1541199057429	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8422, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8422, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541199062692	Marionette	INFO	Stopped listening on port 37485
+1541199129747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8a3YpSkZ2GBf"
+1541199131480	Marionette	INFO	Listening on port 40201
+1541199131557	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8655, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8655, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541199134916	Marionette	INFO	Stopped listening on port 40201
+1541199161857	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lEKJus4fmH0M"
+1541199163547	Marionette	INFO	Listening on port 42787
+1541199163572	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8886, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541199168625	Marionette	INFO	Stopped listening on port 42787
+JavaScript error: https://contextual.media.net/fcmdynet.js?&gdpr=1&cid=8CUQBB2U5&cpcd=7xRa5ccNXLLzdohX57nd7w%3D%3D&crid=441289839&size=641x481&cc=GB&https=1&vif=0&requrl=https%3A%2F%2Fwww.guru99.com%2Faccessing-forms-in-webdriver.html&kwrf=https%3A%2F%2Fwww.google.com&nse=3&vi=1541199183157086740&lw=1&ugd=4&insl=1, line 198: TypeError: _mNDetails._mNVI is undefined
+1541199307378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.D9pRa9protbU"
+1541199309172	Marionette	INFO	Listening on port 39327
+1541199309187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 9144, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 9144, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541199313279	Marionette	INFO	Stopped listening on port 39327
+1541199336093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.i32c2QMKCUCg"
+1541199337791	Marionette	INFO	Listening on port 45799
+1541199337806	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 9379, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 9379, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541199341169	Marionette	INFO	Stopped listening on port 45799
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 2521, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541199414263	Marionette	INFO	Stopped listening on port 36799
+1541361583338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rKpZOR1kvQVZ"
+1541361585417	Marionette	INFO	Listening on port 45923
+1541361585452	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3373, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3373, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541361593046	Marionette	INFO	Stopped listening on port 45923
+1541361624901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1bW4Fb9EeowL"
+1541361626702	Marionette	INFO	Listening on port 41517
+1541361626712	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3740): dconf-WARNING **: 20:00:27.805: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3740, tid 3848, syscall 203, args 3848 128 140390614949376 140390614952400 1 140390614951680.
+1541361721675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Hf83rYHPujdc"
+1541361723441	Marionette	INFO	Listening on port 46739
+1541361723482	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4453): dconf-WARNING **: 20:02:04.607: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 4453, tid 4557, syscall 203, args 4557 128 140096335506944 140096335509968 1 140096335509248.
+1541361729594	Marionette	INFO	Stopped listening on port 46739
+1541361880320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dJ7PyxRejMQ8"
+1541361882033	Marionette	INFO	Listening on port 44169
+1541361882138	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4788): dconf-WARNING **: 20:04:43.201: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 4788, tid 4889, syscall 203, args 4889 128 140302159777280 140302159780304 1 140302159779584.
+1541361900799	Marionette	INFO	Stopped listening on port 44169
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3622, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3622, Gecko_IOThread] WARNING: pipe error (109): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541361936326	Marionette	INFO	Stopped listening on port 41517
+1541362240027	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fkQSfbZ1iUkG"
+1541362242237	Marionette	INFO	Listening on port 36113
+1541362242403	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:2208): dconf-WARNING **: 20:10:43.587: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 2208, tid 2317, syscall 203, args 2317 128 140565689974272 140565689977296 1 140565689976576.
+1541362479520	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MpBsyi4jm2pq"
+1541362481357	Marionette	INFO	Listening on port 43801
+1541362481442	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:2767): dconf-WARNING **: 20:14:42.315: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 2767, tid 2860, syscall 203, args 2860 128 140283338550784 140283338553808 1 140283338553088.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2650, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 2650, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 2650, Gecko_IOThread] WARNING: pipe error (118): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362498829	Marionette	INFO	Stopped listening on port 43801
+1541362528522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fmzzmFPQDpr9"
+1541362530288	Marionette	INFO	Listening on port 41399
+1541362530329	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3016): dconf-WARNING **: 20:15:31.387: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3016, tid 3115, syscall 203, args 3115 128 140322013982208 140322013985232 1 140322013984512.
+[Parent 2901, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 2901, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 2901, Gecko_IOThread] WARNING: pipe error (109): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362539999	Marionette	INFO	Stopped listening on port 41399
+1541362573155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xRW0ZS1ekFbQ"
+1541362574862	Marionette	INFO	Listening on port 38085
+1541362574968	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3269): dconf-WARNING **: 20:16:15.888: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3269, tid 3370, syscall 203, args 3370 128 139754343493120 139754343496144 1 139754343495424.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3157, Gecko_IOThread] WARNING: pipe error (54): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3157, Gecko_IOThread] WARNING: pipe error (119): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362580675	Marionette	INFO	Stopped listening on port 38085
+1541362588517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UFHUatU2RByT"
+1541362590300	Marionette	INFO	Listening on port 36535
+1541362590332	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3501): dconf-WARNING **: 20:16:31.216: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3501, tid 3601, syscall 203, args 3601 128 140674454564352 140674454567376 1 140674454566656.
+[Parent 3393, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3393, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362600754	Marionette	INFO	Stopped listening on port 36535
+1541362613271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OP6wnyXDsAGo"
+1541362614977	Marionette	INFO	Listening on port 46169
+1541362615097	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3744): dconf-WARNING **: 20:16:56.098: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3744, tid 3850, syscall 203, args 3850 128 139734004379136 139734004382160 1 4294967295.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3629, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3629, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3629, Gecko_IOThread] WARNING: pipe error (119): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362627266	Marionette	INFO	Stopped listening on port 46169
+1541362634215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GxlWLI04ENnv"
+1541362635938	Marionette	INFO	Listening on port 32911
+1541362636029	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3990): dconf-WARNING **: 20:17:17.135: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3990, tid 4092, syscall 203, args 4092 128 140039546580480 140039546583504 1 140039546582784.
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 3876, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362775177	Marionette	INFO	Stopped listening on port 32911
+1541362777415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QhjZhbwD0cVn"
+1541362779215	Marionette	INFO	Listening on port 35367
+1541362779230	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4317): dconf-WARNING **: 20:19:41.116: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 4317, tid 4416, syscall 203, args 4416 128 139986119683584 139986119686608 1 139986119685888.
+[Parent 4201, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4201, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362870634	Marionette	INFO	Stopped listening on port 35367
+1541362872062	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g6iRhjULxdXp"
+1541362874009	Marionette	INFO	Listening on port 34833
+1541362874073	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4608): dconf-WARNING **: 20:21:15.046: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 4608, tid 4707, syscall 203, args 4707 128 140555845950976 140555845954000 1 4294967295.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 4478, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362888775	Marionette	INFO	Stopped listening on port 34833
+1541362891450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.prsHt6jlPYkc"
+1541362893283	Marionette	INFO	Listening on port 39863
+1541362893384	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4844): dconf-WARNING **: 20:21:34.400: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 4844, tid 4947, syscall 203, args 4947 128 140244239166976 140244239170000 1 140244239169280.
+[Parent 4729, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362900017	Marionette	INFO	Stopped listening on port 39863
+1541362916212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QTeZ0iMw9TWX"
+1541362918003	Marionette	INFO	Listening on port 45497
+1541362918026	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5081): dconf-WARNING **: 20:21:58.872: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 5081, tid 5190, syscall 203, args 5190 128 140502340013568 140502340016592 1 140502340015872.
+1541362924176	Marionette	INFO	Stopped listening on port 45497
+1541362926731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WKF2X9Cr9Vis"
+1541362928448	Marionette	INFO	Listening on port 34433
+1541362928548	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5320): dconf-WARNING **: 20:22:09.769: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 5320, tid 5421, syscall 203, args 5421 128 139820666277376 139820666280400 1 139820666279680.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5206, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5206, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541362944519	Marionette	INFO	Stopped listening on port 34433
+1541363043635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YhW5m3u55rGu"
+1541363045388	Marionette	INFO	Listening on port 34529
+1541363045444	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5617): dconf-WARNING **: 20:24:06.402: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 5617, tid 5726, syscall 203, args 5726 128 139922569833984 139922569837008 1 139922569836288.
+[Parent 5496, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363053402	Marionette	INFO	Stopped listening on port 34529
+1541363125003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Xxf4X3NBUk8q"
+1541363126751	Marionette	INFO	Listening on port 41199
+1541363126820	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5905): dconf-WARNING **: 20:25:27.956: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 5905, tid 6006, syscall 203, args 6006 128 140251566988800 140251566991824 1 140251566991104.
+1541363138397	Marionette	INFO	Stopped listening on port 41199
+1541363169790	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bHt7sIHZlicI"
+1541363171568	Marionette	INFO	Listening on port 41975
+1541363171602	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6159): dconf-WARNING **: 20:26:12.679: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 6159, tid 6257, syscall 203, args 6257 128 140246484684288 140246484687312 1 140246484686592.
+[Parent 6045, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6045, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363207214	Marionette	INFO	Stopped listening on port 41975
+1541363315636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jx0b3oCEy5RQ"
+1541363317523	Marionette	INFO	Listening on port 42045
+1541363317554	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6456): dconf-WARNING **: 20:28:39.114: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 6456, tid 6550, syscall 203, args 6550 128 139985237163520 139985237166544 1 139985237165824.
+[Parent 6331, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6331, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363363168	Marionette	INFO	Stopped listening on port 42045
+1541363364384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NoqlTfXaP8BM"
+1541363366125	Marionette	INFO	Listening on port 43001
+1541363366195	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6720): dconf-WARNING **: 20:29:27.148: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 6720, tid 6825, syscall 203, args 6825 128 139744058928640 139744058931664 1 139744058930944.
+[Parent 6606, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363384065	Marionette	INFO	Stopped listening on port 43001
+1541363418715	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gC2PHVySprZE"
+1541363420466	Marionette	INFO	Listening on port 35307
+1541363420540	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6983): dconf-WARNING **: 20:30:21.719: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 6983, tid 7085, syscall 203, args 7085 128 140687843945984 140687843949008 1 140687843948288.
+[Parent 6867, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363433422	Marionette	INFO	Stopped listening on port 35307
+1541363442555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qFbWL73nskFP"
+1541363444353	Marionette	INFO	Listening on port 41975
+1541363444368	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7229): dconf-WARNING **: 20:30:45.355: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 7229, tid 7330, syscall 203, args 7330 128 140694040382976 140694040386000 1 140694040385280.
+1541363453555	Marionette	INFO	Stopped listening on port 41975
+1541363479631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MAQOV6JGD09T"
+1541363481378	Marionette	INFO	Listening on port 36573
+1541363481442	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7484): dconf-WARNING **: 20:31:22.445: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 7484, tid 7589, syscall 203, args 7589 128 140391348952576 140391348955600 1 140391348954880.
+[Parent 7367, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363490435	Marionette	INFO	Stopped listening on port 36573
+1541363512293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iwyF228EjBRh"
+1541363514051	Marionette	INFO	Listening on port 35101
+1541363514101	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7745): dconf-WARNING **: 20:31:55.187: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 7745, tid 7844, syscall 203, args 7844 128 139774255459840 139774255462864 1 139774255462144.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7630, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7630, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363525288	Marionette	INFO	Stopped listening on port 35101
+1541363554791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8MVxIHCOCpQi"
+1541363556511	Marionette	INFO	Listening on port 43597
+1541363556603	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8003): dconf-WARNING **: 20:32:37.695: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 8003, tid 8103, syscall 203, args 8103 128 140036729769472 140036729772496 1 4294967295.
+[Parent 7887, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363572945	Marionette	INFO	Stopped listening on port 43597
+1541363579196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kBxf4RokJSV7"
+1541363580994	Marionette	INFO	Listening on port 43139
+1541363581005	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8243): dconf-WARNING **: 20:33:02.007: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 8243, tid 8342, syscall 203, args 8342 128 139817607712256 139817607715280 1 139817607714560.
+[Parent 8133, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8133, Gecko_IOThread] WARNING: pipe error (55): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8133, Gecko_IOThread] WARNING: pipe error (112): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363589667	Marionette	INFO	Stopped listening on port 43139
+JavaScript error: https://snakify.org/en/lessons/strings_str/, line 56: ReferenceError: ga is not defined
+JavaScript error: https://snakify.org/en/lessons/strings_str/, line 87: ReferenceError: Raven is not defined
+1541363644020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.u4e4B0k50zh7"
+1541363645787	Marionette	INFO	Listening on port 41847
+1541363645827	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8517): dconf-WARNING **: 20:34:07.442: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 8517, tid 8609, syscall 203, args 8609 128 140627273502208 140627273505232 1 140627273504512.
+[Parent 8391, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363655842	Marionette	INFO	Stopped listening on port 41847
+1541363664411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ez456WIz1R25"
+1541363666145	Marionette	INFO	Listening on port 42757
+1541363666221	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8748): dconf-WARNING **: 20:34:27.643: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 8748, tid 8842, syscall 203, args 8842 128 139749003095552 139749003098576 1 139749003097856.
+1541363676550	Marionette	INFO	Stopped listening on port 42757
+1541363735487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QDU3bD57jTI8"
+1541363737309	Marionette	INFO	Listening on port 33923
+1541363737399	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9014): dconf-WARNING **: 20:35:39.840: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 9014, tid 9120, syscall 203, args 9120 128 139926800735744 139926800738768 1 139926800738048.
+[Parent 8897, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363751297	Marionette	INFO	Stopped listening on port 33923
+1541363762831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8TFM4MXF9pOe"
+1541363764650	Marionette	INFO	Listening on port 33481
+1541363764737	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9261): dconf-WARNING **: 20:36:05.566: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 9261, tid 9363, syscall 203, args 9363 128 140133520109056 140133520112080 1 140133520111360.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9149, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363799382	Marionette	INFO	Stopped listening on port 33481
+1541363800750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PRL0jLd0kZdg"
+1541363802524	Marionette	INFO	Listening on port 36963
+1541363802560	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9509): dconf-WARNING **: 20:36:43.576: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 9509, tid 9613, syscall 203, args 9613 128 140645232537088 140645232540112 1 140645232539392.
+1541363831553	Marionette	INFO	Stopped listening on port 36963
+1541363845094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PPqQBKnNy5Bc"
+1541363847088	Marionette	INFO	Listening on port 39619
+1541363847125	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9763): dconf-WARNING **: 20:37:28.127: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 9763, tid 9864, syscall 203, args 9864 128 139937272819200 139937272822224 1 139937272821504.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9649, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 9649, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 9649, Gecko_IOThread] WARNING: pipe error (122): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541363859135	Marionette	INFO	Stopped listening on port 39619
+1541363901866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XFtnGVS8Pi2t"
+1541363903661	Marionette	INFO	Listening on port 42521
+1541363903677	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10017): dconf-WARNING **: 20:38:24.509: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 10017, tid 10120, syscall 203, args 10120 128 140390015045120 140390015048144 1 4294967295.
+1541363914460	Marionette	INFO	Stopped listening on port 42521
+1541363937267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.R2O0ZakCIJDs"
+1541363939324	Marionette	INFO	Listening on port 40015
+1541363939376	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10267): dconf-WARNING **: 20:39:01.673: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 10267, tid 10378, syscall 203, args 10378 128 140668034604544 140668034607568 1 140668034606848.
+[Parent 10157, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1541363956641	Marionette	INFO	Stopped listening on port 40015
+1541363985432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.49fwZ2RL52OH"
+1541363987189	Marionette	INFO	Listening on port 39173
+1541363987241	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10524): dconf-WARNING **: 20:39:48.470: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 10524, tid 10629, syscall 203, args 10629 128 140238521933312 140238521936336 1 140238521935616.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10417, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 10417, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541364152986	Marionette	INFO	Stopped listening on port 39173
+1541364154268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.unRyyakJtQ28"
+1541364156037	Marionette	INFO	Listening on port 41771
+1541364156074	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10849): dconf-WARNING **: 20:42:37.121: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 10849, tid 10953, syscall 203, args 10953 128 140456635276800 140456635279824 1 140456635279104.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1541364175022	Marionette	INFO	Stopped listening on port 41771
+1541364189429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8WVr0mqT2dtz"
+1541364191222	Marionette	INFO	Listening on port 37487
+1541364191237	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11106): dconf-WARNING **: 20:43:12.257: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 11106, tid 11213, syscall 203, args 11213 128 140286615084544 140286615087568 1 140286615086848.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10987, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 10987, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 10987, Gecko_IOThread] WARNING: pipe error (120): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541364201440	Marionette	INFO	Stopped listening on port 37487
+1541364258342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ptqTk6XIQF9F"
+1541364260151	Marionette	INFO	Listening on port 34619
+1541364260252	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11380): dconf-WARNING **: 20:44:21.247: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 11380, tid 11477, syscall 203, args 11477 128 139708314152448 139708314155472 1 4294967295.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 11256, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 11256, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541364283068	Marionette	INFO	Stopped listening on port 34619
+1541364284492	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gter5Hci4hI8"
+1541364286202	Marionette	INFO	Listening on port 42157
+1541364286299	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11622): dconf-WARNING **: 20:44:48.453: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 11622, tid 11724, syscall 203, args 11724 128 139649691414016 139649691417040 1 139649691416320.
+[Parent 11508, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541364301501	Marionette	INFO	Stopped listening on port 42157
+1541364316143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.djREI8GwvOlW"
+1541364317914	Marionette	INFO	Listening on port 33637
+1541364317953	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11862): dconf-WARNING **: 20:45:19.099: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 11862, tid 11963, syscall 203, args 11963 128 140427227270656 140427227273680 1 140427227272960.
+1541364332123	Marionette	INFO	Stopped listening on port 33637
+1541364490456	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IIVSYyZbtkPt"
+1541364492113	Marionette	INFO	Listening on port 42841
+1541364492165	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12169): dconf-WARNING **: 20:48:13.214: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 12169, tid 12267, syscall 203, args 12267 128 140384077344256 140384077347280 1 140384077346560.
+[Parent 12048, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 12048, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541364515332	Marionette	INFO	Stopped listening on port 42841
+1541364603644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w8j3FqKho8vK"
+1541364605595	Marionette	INFO	Listening on port 37769
+1541364605674	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12457): dconf-WARNING **: 20:50:06.690: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 12457, tid 12563, syscall 203, args 12563 128 140094472048128 140094472051152 1 140094472050432.
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 12341, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 12341, Gecko_IOThread] WARNING: pipe error (122): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541364733527	Marionette	INFO	Stopped listening on port 37769
