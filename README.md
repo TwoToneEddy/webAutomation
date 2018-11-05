@@ -21,3 +21,11 @@ First login page:
 
 //div[@class='dropdown__option firstMemorableCharacter dropdown__option--selected']/label[@class='dropdown__label' and 1]
 //div[@class='dropdown__option secondMemorableCharacter dropdown__option--selected']/label[@class='dropdown__label' and 1]
+//button[@id='btn-login-authSFA']
+
+#Select move money now
+//label[@id='moveMoneyMenu']
+//a[@id='megaMenu_121']/span[@class='link-text' and 2]
+
+#select from account
+//div[@id='fromAccountId']/fieldset[@class='large' and 1]/div[@class='holder account-list' and 1]/div[@class='handle' and 1]/p[1]
