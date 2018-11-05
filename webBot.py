@@ -13,6 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
 from selenium.webdriver.support.ui import Select
+import time
 
 class webBot(object):
 	def __init__(self):
@@ -61,9 +62,8 @@ class webBot(object):
 		first_char =  mem_characters.text.split()[1][0]
 		second_char = mem_characters.text.split()[3][0]
 
-		first_char_menu = self.browser.find_element_by_xpath("//div[@class='dropdown firstMemorableCharacter']/div[@id='selectedCharacter' and @class='dropdown__selected ng-binding' and 1]")
-		first_char_menu.select_by_visible_text(self.local_variables['memorable'][int(first_char)])
-
+		first_char_menu = self.browser.find_element_by_xpath("//div[@class='dropdown firstMemorableCharacter']/div[@id='selectedCharacter' and @class='dropdown__selected ng-binding' and 2]")
+		first_char_menu.click()
 
 		print int(first_char)
 		print self.local_variables['memorable'][int(first_char)]
