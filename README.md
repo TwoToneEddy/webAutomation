@@ -18,3 +18,6 @@ First login page:
 //div[@class='dropdown firstMemorableCharacter']/div[@id='selectedCharacter' and @class='dropdown__selected ng-binding' and 1]
 //div[@class='dropdown secondMemorableCharacter']/div[@id='selectedCharacter' and @class='dropdown__selected ng-binding' and 1]
 //button[@id='btn-login-authSFA']
+
+//div[@class='dropdown__option firstMemorableCharacter dropdown__option--selected']/label[@class='dropdown__label' and 1]
+//div[@class='dropdown__option secondMemorableCharacter dropdown__option--selected']/label[@class='dropdown__label' and 1]
