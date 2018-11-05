@@ -1100,3 +1100,252 @@ Sandbox: seccomp sandbox violation: pid 5601, tid 5710, syscall 203, args 5710 1
 Sandbox: seccomp sandbox violation: pid 5854, tid 5952, syscall 203, args 5952 128 139628116962816 139628116965840 1 139628116965120.
 [Parent 5743, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 1541445959306	Marionette	INFO	Stopped listening on port 45777
+1541446278094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mXl6wOr5SL4e"
+1541446280443	Marionette	INFO	Listening on port 35463
+1541446280520	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:2113): dconf-WARNING **: 19:31:21.661: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 2113, tid 2231, syscall 203, args 2231 128 140471333940736 140471333943760 1 140471333943040.
+[Parent 1991, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541446292322	Marionette	INFO	Stopped listening on port 35463
+1541446301947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1tpikMNiLEIU"
+1541446303762	Marionette	INFO	Listening on port 35059
+1541446303853	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:2365): dconf-WARNING **: 19:31:44.789: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 2365, tid 2465, syscall 203, args 2465 128 140629664136704 140629664139728 1 140629664139008.
+1541446316200	Marionette	INFO	Stopped listening on port 35059
+1541446323144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NPFCVXawtrCF"
+1541446324916	Marionette	INFO	Listening on port 35965
+1541446324959	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:2603): dconf-WARNING **: 19:32:05.936: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 2603, tid 2709, syscall 203, args 2709 128 140597647494656 140597647497680 1 4294967295.
+[Parent 2490, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541446342134	Marionette	INFO	Stopped listening on port 35965
+1541446347755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HMysD7T18XeE"
+1541446349590	Marionette	INFO	Listening on port 36725
+1541446349667	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:2853): dconf-WARNING **: 19:32:31.947: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 2853, tid 2956, syscall 203, args 2956 128 140521546927616 140521546930640 1 140521546929920.
+[Parent 2744, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541446378305	Marionette	INFO	Stopped listening on port 36725
+1541446386214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZMEXSXsCfZAf"
+1541446387948	Marionette	INFO	Listening on port 34453
+1541446388026	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3099): dconf-WARNING **: 19:33:09.199: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3099, tid 3197, syscall 203, args 3197 128 140579555732992 140579555736016 1 140579555735296.
+[Parent 2982, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541446396996	Marionette	INFO	Stopped listening on port 34453
+1541446442526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gD6twVH53KmK"
+1541446444298	Marionette	INFO	Listening on port 37591
+1541446444335	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3358): dconf-WARNING **: 19:34:05.211: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3358, tid 3458, syscall 203, args 3458 128 139770283945472 139770283948496 1 139770283947776.
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 43: TypeError: window is null
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 3238, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541446569209	Marionette	INFO	Stopped listening on port 37591
+1541446572832	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gm8BlBcHKj91"
+1541446574574	Marionette	INFO	Listening on port 40759
+1541446574642	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3680): dconf-WARNING **: 19:36:15.629: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 3680, tid 3784, syscall 203, args 3784 128 140439317167616 140439317170640 1 140439317169920.
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+
+(/usr/lib/firefox/firefox:3744): dconf-WARNING **: 19:40:04.424: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.swtestacademy.com/wp-content/cache/busting/1/gtm-local.js, line 10: unreachable code after return statement
+JavaScript warning: https://www.swtestacademy.com/wp-content/cache/busting/1/gtm-local.js, line 26: unreachable code after return statement
+JavaScript warning: https://www.swtestacademy.com/wp-content/cache/busting/1/gtm-local.js, line 26: unreachable code after return statement
+JavaScript warning: https://www.swtestacademy.com/wp-content/cache/busting/1/gtm-local.js, line 26: unreachable code after return statement
+JavaScript warning: https://www.swtestacademy.com/wp-content/cache/busting/1/gtm-local.js, line 10: unreachable code after return statement
+JavaScript warning: https://www.swtestacademy.com/wp-content/cache/busting/1/gtm-local.js, line 26: unreachable code after return statement
+1541447088733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ol10piQIeyop"
+1541447090570	Marionette	INFO	Listening on port 38373
+1541447090645	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4263): dconf-WARNING **: 19:44:51.689: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 4263, tid 4367, syscall 203, args 4367 128 140110441975296 140110441978320 1 140110441977600.
+[Parent 4143, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541447100535	Marionette	INFO	Stopped listening on port 38373
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+JavaScript error: https://h.online-metrix.net/fp/tags.js?org_id=ljcjjbch&session_id=ffa812f6d83638795e9ed516a9118e47bf33db0cd12e397c024bdbdceb478995&pageid=1&callback=angular.callbacks._1, line 1: Error: multiple calls to tags.js
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 3561, Gecko_IOThread] WARNING: pipe error (151): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3561, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.IV1D3NcG5d0.O/am=_p8Qw3hA_r7P8Wk4b2MEOBwMRWEA2P8fQR6Vvu1vzAhAlCVw5A-P_5vxDfj_B7oZAAAAAAAAAAAAAAAAAAAAXIEmWg/rt=j/d=1/im=1/dg=0/rs=AHGWq9BGd8QSAvSbr03_vFl57_ZrecJXgg/m=sps,spl,spit,m_i,spt,t,it, line 235: NS_ERROR_NOT_INITIALIZED: 
+1541447578354	Marionette	INFO	Stopped listening on port 40759
+1541447588520	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6lcV7Wfag7Ez"
+1541447590307	Marionette	INFO	Listening on port 44727
+1541447590336	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4663): dconf-WARNING **: 19:53:11.562: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 4663, tid 4763, syscall 203, args 4763 128 140691532332544 140691532335568 1 140691532334848.
+
+(/usr/lib/firefox/firefox:4987): dconf-WARNING **: 19:56:28.740: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541447986247	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zoQCNfXYvehR"
+1541447987992	Marionette	INFO	Listening on port 38121
+1541447988065	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5285): dconf-WARNING **: 19:59:48.963: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 5285, tid 5387, syscall 203, args 5387 128 139698609581568 139698609584592 1 139698609583872.
+[Parent 5170, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5170, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5170, Gecko_IOThread] WARNING: pipe error (119): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541448004371	Marionette	INFO	Stopped listening on port 38121
+1541448085573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.524phiofSxFn"
+1541448087326	Marionette	INFO	Listening on port 36037
+1541448087381	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5585): dconf-WARNING **: 20:01:28.254: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 5585, tid 5692, syscall 203, args 5692 128 140544307408384 140544307411408 1 140544307410688.
+[Parent 5473, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541448102031	Marionette	INFO	Stopped listening on port 36037
+1541448115172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8mZH4lutUPlN"
+1541448116828	Marionette	INFO	Listening on port 44901
+1541448116883	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5834): dconf-WARNING **: 20:01:58.026: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 5834, tid 5937, syscall 203, args 5937 128 139795940236800 139795940239824 1 139795940239104.
+1541448129100	Marionette	INFO	Stopped listening on port 44901
+1541448136106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.M50T3YGe0n5v"
+1541448137834	Marionette	INFO	Listening on port 37067
+1541448137918	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6085): dconf-WARNING **: 20:02:19.161: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 6085, tid 6192, syscall 203, args 6192 128 140179016596992 140179016600016 1 140179016599296.
+
+(/usr/lib/firefox/firefox:6151): dconf-WARNING **: 20:03:30.561: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541448340159	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZOjW6RE0aBz8"
+1541448341983	Marionette	INFO	Listening on port 34527
+1541448342065	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6571): dconf-WARNING **: 20:05:43.027: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 6571, tid 6674, syscall 203, args 6674 128 140311071153664 140311071156688 1 4294967295.
+[Parent 6459, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541448358446	Marionette	INFO	Stopped listening on port 34527
+1541448448394	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JcprOuXRymRS"
+1541448450209	Marionette	INFO	Listening on port 34083
+1541448450307	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6851): dconf-WARNING **: 20:07:31.409: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 6851, tid 6954, syscall 203, args 6954 128 140009386511872 140009386514896 1 140009386514176.
+[Parent 6724, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6724, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541448462228	Marionette	INFO	Stopped listening on port 34083
+1541448475033	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NlnRy0DZFbRw"
+1541448476841	Marionette	INFO	Listening on port 44929
+1541448476957	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7098): dconf-WARNING **: 20:07:59.530: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 7098, tid 7199, syscall 203, args 7199 128 139834782244352 139834782247376 1 139834782246656.
+[Parent 6983, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6983, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6983, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541448498229	Marionette	INFO	Stopped listening on port 44929
+1541448773741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QzYkN3vKFANA"
+1541448775506	Marionette	INFO	Listening on port 36389
+1541448775551	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7449): dconf-WARNING **: 20:12:56.675: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 7449, tid 7552, syscall 203, args 7552 128 140502132321792 140502132324816 1 140502132324096.
+[Parent 7326, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541448796422	Marionette	INFO	Stopped listening on port 36389
+1541448806061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4k1qAFE8EX2X"
+1541448807828	Marionette	INFO	Listening on port 46807
+1541448807869	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7697): dconf-WARNING **: 20:13:28.980: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 7697, tid 7801, syscall 203, args 7801 128 140628373265920 140628373268944 1 140628373268224.
+[Parent 7585, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Child 7697, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541448832999	Marionette	INFO	Stopped listening on port 46807
+1541448900435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jmwOINPrTXnK"
+1541448902279	Marionette	INFO	Listening on port 45867
+1541448902345	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7956): dconf-WARNING **: 20:15:03.787: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 7956, tid 8063, syscall 203, args 8063 128 139662006939136 139662006942160 1 139662006941440.
+1541448974181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SGxRLWUGM06V"
+1541448975971	Marionette	INFO	Listening on port 42399
+1541448975991	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8225): dconf-WARNING **: 20:16:16.980: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 8225, tid 8337, syscall 203, args 8337 128 140565083201024 140565083204048 1 140565083203328.
+[Parent 8107, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+1541449013709	Marionette	INFO	Stopped listening on port 42399
+1541449170933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n9inoyKxBfrO"
+1541449172694	Marionette	INFO	Listening on port 34897
+1541449172747	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8544): dconf-WARNING **: 20:19:33.800: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 8544, tid 8644, syscall 203, args 8644 128 140696629689856 140696629692880 1 140696629692160.
+[Parent 8425, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8425, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541449190833	Marionette	INFO	Stopped listening on port 34897
+JavaScript error: https://h.online-metrix.net/fp/tags.js?org_id=ljcjjbch&session_id=e9404caca4c102a65acb132d63d2363eb7d26492b17201bfb435da2063f4596e&pageid=1&callback=angular.callbacks._1, line 1: Error: multiple calls to tags.js
+1541449398820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xBljqjQk9IvT"
+1541449400646	Marionette	INFO	Listening on port 46345
+1541449400735	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8878): dconf-WARNING **: 20:23:21.762: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 8878, tid 8982, syscall 203, args 8982 128 140313171586560 140313171589584 1 140313171588864.
+1541449423775	Marionette	INFO	Stopped listening on port 46345
+1541449486286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kI3BzhSncYwJ"
+1541449487984	Marionette	INFO	Listening on port 46299
+1541449487995	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9148): dconf-WARNING **: 20:24:48.997: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 9148, tid 9253, syscall 203, args 9253 128 139993683947008 139993683950032 1 139993683949312.
+[Parent 9028, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541449508219	Marionette	INFO	Stopped listening on port 46299
+1541449626043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AHLeXTG6aOCs"
+1541449627821	Marionette	INFO	Listening on port 36197
+1541449627857	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9457): dconf-WARNING **: 20:27:08.849: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 9457, tid 9561, syscall 203, args 9561 128 140302560218624 140302560221648 1 140302560220928.
+1541449651182	Marionette	INFO	Stopped listening on port 36197
+1541449733708	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9GWOAw0Tjzku"
+1541449735506	Marionette	INFO	Listening on port 44111
+1541449735525	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9754): dconf-WARNING **: 20:28:57.010: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Sandbox: seccomp sandbox violation: pid 9754, tid 9859, syscall 203, args 9859 128 140393550835200 140393550838224 1 140393550837504.
+JavaScript error: https://www.google.com/, line 1: Error: a
+
+(/usr/lib/firefox/firefox:9821): dconf-WARNING **: 20:29:53.745: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied

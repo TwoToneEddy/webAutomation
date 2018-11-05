@@ -6,11 +6,12 @@
 # accountNoStr,99999999
 # webSiteStr,https://bank.barclays.co.uk/olb/auth/#MobiLoginLink_displayWithNoCookieWithAccount.action
 # geckoPathStr,/home/lee/Downloads/geckodriver
-
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
 import re
 from selenium.webdriver.support.ui import Select
 import time
@@ -62,8 +63,17 @@ class webBot(object):
 		first_char =  mem_characters.text.split()[1][0]
 		second_char = mem_characters.text.split()[3][0]
 
-		first_char_menu = self.browser.find_element_by_xpath("//div[@class='dropdown firstMemorableCharacter']/div[@id='selectedCharacter' and @class='dropdown__selected ng-binding' and 2]")
+		first_char_menu = self.browser.find_element_by_xpath("//div[@class='dropdown firstMemorableCharacter']/div[@id='selectedCharacter' and @class='dropdown__selected ng-binding' and 1]")
 		first_char_menu.click()
+		time.sleep(5)
+		first_char_menu_select = self.browser.find_element_by_xpath("//*[starts-with(@id,'item') and contains(@id,'_2')]")
+		#WebDriverWait(self.browser, 3).until(EC.visibility_of_element_located((By.XPATH,"//*[starts-with(@id,'item') and contains(@id,'_2')]" )))
+		#self.browser.execute_script("arguments[0].scrollIntoView(true);", first_char_menu_select)
+		#self.browser.switch_to().frame(self.browser.find_element_by_xpath("//*[starts-with(@id,'item') and contains(@id,'_2')]"))
+		actions = ActionChains(self.browser)
+		actions.move_to_element(first_char_menu_select).perform()
+		time.sleep(1)
+		first_char_menu_select.click()
 
 		print int(first_char)
 		print self.local_variables['memorable'][int(first_char)]
