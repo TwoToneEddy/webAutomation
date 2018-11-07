@@ -1604,3 +1604,534 @@ JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWith
 JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
 JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
 1541614847168	Marionette	INFO	Stopped listening on port 40869
+1541615188369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4IbYi8ynk0oM"
+1541615190269	Marionette	INFO	Listening on port 34673
+1541615190277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+1541615278096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BskgkGDxLboZ"
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 13842, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 13842, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541615280357	Marionette	INFO	Listening on port 37147
+1541615280363	Marionette	INFO	Stopped listening on port 34673
+1541615280417	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 14121, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 14121, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541615312777	Marionette	INFO	Stopped listening on port 37147
+1541615314232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oOuvSyvHGSN5"
+1541615315920	Marionette	INFO	Listening on port 45333
+1541615315942	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+1541615388478	Marionette	INFO	Stopped listening on port 45333
+1541615391261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2nfPDfC0CyhW"
+1541615392994	Marionette	INFO	Listening on port 45093
+1541615393089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+
+(/usr/lib/firefox/firefox:14776): dconf-WARNING **: 18:30:16.519: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541615579860	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6hqVM10C8V6w"
+1541615581611	Marionette	INFO	Listening on port 43633
+1541615581667	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 15068, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15068, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541615607922	Marionette	INFO	Stopped listening on port 43633
+1541615913095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GbnAhDB8SZWQ"
+1541615914863	Marionette	INFO	Listening on port 39711
+1541615914906	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 15426, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15426, Gecko_IOThread] WARNING: pipe error (102): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541615967535	Marionette	INFO	Stopped listening on port 39711
+1541615968886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J6728Jw9fAJp"
+1541615970663	Marionette	INFO	Listening on port 38095
+1541615970698	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+1541616082494	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W5kyBtKJESXh"
+1541616084292	Marionette	INFO	Listening on port 43555
+1541616084308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 15973, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15973, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541616094061	Marionette	INFO	Stopped listening on port 43555
+1541616147848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fMDImS0FyH03"
+1541616149647	Marionette	INFO	Listening on port 32909
+1541616149662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 16241, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 16241, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541616174888	Marionette	INFO	Stopped listening on port 32909
+1541616177066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l1wRBFhndOyH"
+1541616178809	Marionette	INFO	Listening on port 43259
+1541616178878	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 16470, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541616190047	Marionette	INFO	Stopped listening on port 43259
+1541616211406	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jrrKyKqMCPRV"
+1541616213145	Marionette	INFO	Listening on port 42113
+1541616213215	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+1541616293538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GO6B39MxGg9B"
+1541616295365	Marionette	INFO	Listening on port 38615
+1541616295452	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+1541616304238	Marionette	INFO	Stopped listening on port 38615
+1541616314056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.18jP1fEzzboC"
+1541616315892	Marionette	INFO	Listening on port 44971
+1541616315971	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 17322, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 17322, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541616347088	Marionette	INFO	Stopped listening on port 44971
+1541616348709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.54wdMcAEXlSZ"
+1541616350538	Marionette	INFO	Listening on port 40339
+1541616350614	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 17565, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541616360693	Marionette	INFO	Stopped listening on port 40339
+
+(/usr/lib/firefox/firefox:17008): dconf-WARNING **: 18:46:17.369: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541616570919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cx9yfw2qHGyx"
+1541616572717	Marionette	INFO	Listening on port 35059
+1541616572735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+1541616581527	Marionette	INFO	Stopped listening on port 35059
+1541616592293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EHa7voGOfEEX"
+1541616594057	Marionette	INFO	Listening on port 33449
+1541616594106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 18164, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 18164, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541616605992	Marionette	INFO	Stopped listening on port 33449
+1541616610729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EWmcIsw7kxi3"
+1541616612428	Marionette	INFO	Listening on port 35685
+1541616612440	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 18398, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 18398, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541616916749	Marionette	INFO	Stopped listening on port 35685
+1541616919172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cHv6toLCiQii"
+1541616920999	Marionette	INFO	Listening on port 32829
+1541616921093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 18756, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 18756, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541617026617	Marionette	INFO	Stopped listening on port 32829
+1541617028364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XyKP2w9DQZ6a"
+1541617030056	Marionette	INFO	Listening on port 39035
+1541617030071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 19032, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 19032, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541617113956	Marionette	INFO	Stopped listening on port 39035
+1541617115155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hqTdH6cX8tsC"
+1541617116937	Marionette	INFO	Listening on port 39589
+1541617116967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+1541617137800	Marionette	INFO	Stopped listening on port 39589
+
+(/usr/lib/firefox/firefox:17817): dconf-WARNING **: 18:59:15.092: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1541617243157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1eSYBkTPR8QO"
+1541617244882	Marionette	INFO	Listening on port 45013
+1541617244968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 19650, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 19650, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541617819957	Marionette	INFO	Stopped listening on port 45013
+1541618219926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z259JO1qXYjK"
+1541618221831	Marionette	INFO	Listening on port 34369
+1541618221932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+[Parent 20118, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 20118, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1541618224178	Marionette	INFO	Stopped listening on port 34369
+1541618233316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3p7IWttTeHtU"
+1541618235273	Marionette	INFO	Listening on port 35461
+1541618235329	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20360, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618237076	Marionette	INFO	Stopped listening on port 35461
+1541618254324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kQDTjlV25Us8"
+1541618256375	Marionette	INFO	Listening on port 35943
+1541618256443	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+[Parent 20585, Gecko_IOThread] WARNING: pipe error (105): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 20585, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618258117	Marionette	INFO	Stopped listening on port 35943
+1541618265052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MRnWndClc8D6"
+1541618266835	Marionette	INFO	Listening on port 39829
+1541618266865	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 20825, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 20825, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618284785	Marionette	INFO	Stopped listening on port 39829
+1541618290956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YwIbCu0w5iXF"
+1541618292754	Marionette	INFO	Listening on port 39657
+1541618292765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 21057, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 21057, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618317227	Marionette	INFO	Stopped listening on port 39657
+1541618329325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TIMF1JTIAcJk"
+1541618331182	Marionette	INFO	Listening on port 42231
+1541618331237	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 21293, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 21293, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618354678	Marionette	INFO	Stopped listening on port 42231
+1541618424311	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0uCaDTanyOMN"
+1541618426048	Marionette	INFO	Listening on port 41939
+1541618426120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 21560, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 21560, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618447955	Marionette	INFO	Stopped listening on port 41939
+1541618497262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sfHthUF7L7ji"
+1541618499117	Marionette	INFO	Listening on port 45297
+1541618499176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 21825, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618511731	Marionette	INFO	Stopped listening on port 45297
+1541618522244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.p4X7aGexSC0a"
+1541618524001	Marionette	INFO	Listening on port 43431
+1541618524052	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 22074, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 22074, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618646003	Marionette	INFO	Stopped listening on port 43431
+1541618648967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kMFrQWFlpUxT"
+1541618650695	Marionette	INFO	Listening on port 37285
+1541618650779	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 22391, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618728009	Marionette	INFO	Stopped listening on port 37285
+1541618733498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5KYyr38pvMhJ"
+1541618735192	Marionette	INFO	Listening on port 35515
+1541618735214	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 22686, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 22686, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618817839	Marionette	INFO	Stopped listening on port 35515
+1541618819478	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F3E2clLUuaIQ"
+1541618821323	Marionette	INFO	Listening on port 41529
+1541618821393	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 22965, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 22965, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541618879570	Marionette	INFO	Stopped listening on port 41529
+1541618881302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zuNeN0HVvUkr"
+1541618883171	Marionette	INFO	Listening on port 33763
+1541618883215	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 23241, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 23241, Gecko_IOThread] WARNING: pipe error (126): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541619173866	Marionette	INFO	Stopped listening on port 33763
+1541619175371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oHTLBC1xJWgC"
+1541619177216	Marionette	INFO	Listening on port 39305
+1541619177285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 23730, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 23730, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 23730, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541619336611	Marionette	INFO	Stopped listening on port 39305
+1541619338802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mf4pZBGPYTz0"
+1541619340729	Marionette	INFO	Listening on port 44761
+1541619340822	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+[Parent 24160, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 24160, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541619379511	Marionette	INFO	Stopped listening on port 44761
+1541619381793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.s887ETapaZAa"
+1541619383534	Marionette	INFO	Listening on port 41309
+1541619383606	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+1541619499936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.r9AIYtv04PYK"
+1541619502048	Marionette	INFO	Listening on port 37009
+1541619502143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action, line 202: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/olb/auth/MobiLoginLink.action, line 201: SyntaxError: expected expression, got ';'
+JavaScript error: https://bank.barclays.co.uk/js/mobi.js, line 1: ReferenceError: loginTimeoutKeepAliveInstance is not defined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+[Parent 24795, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541619849972	Marionette	INFO	Stopped listening on port 37009
