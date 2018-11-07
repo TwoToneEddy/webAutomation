@@ -83,14 +83,14 @@ class webBot(object):
 		login_btn.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 
 		# Wait for button and click
-		move_money_btn = WebDriverWait(self.browser,10).until(EC.element_to_be_clickable((By.XPATH,"/html/body/nav[2]/div/div/div/ul/li[3]/a")))
+		move_money_btn = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"/html/body/nav[2]/div/div/div/ul/li[3]/a")))
 		move_money_btn.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 
 		from_account = Select(WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//*[@id='fromAccountId']"))))
 		to_account = Select(WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//*[@id='toAccountId']"))))
@@ -104,18 +104,18 @@ class webBot(object):
 		continue_btn.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 
 		confirm = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Confirm")))
 		confirm.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
-		back_to_acc_btn = WebDriverWait(self.browser,20).until(EC.element_to_be_clickable((By.ID,'Back to accounts')))
+		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		back_to_acc_btn = WebDriverWait(self.browser,60).until(EC.element_to_be_clickable((By.ID,'Back to accounts')))
 		back_to_acc_btn.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 
 def main():
 	webBot()
