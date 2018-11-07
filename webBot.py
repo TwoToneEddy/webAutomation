@@ -30,76 +30,54 @@ class webBot(object):
 				self.local_variables[key] = val.strip('\n')
 
 	def login(self):
+		# Open correct webpage
+		self.browser.get(self.local_variables['webSiteStr1'])
+
 		# First login screen
-		# Get all elements needed
+		# Get all elements needed on first login page
+		surname=self.browser.find_element_by_name('surname')
+		sc1 = self.browser.find_element_by_name('sortCodeSet1')
+		sc2 = self.browser.find_element_by_name('sortCodeSet2')
+		sc3 = self.browser.find_element_by_name('sortCodeSet3')
+		acc_no = self.browser.find_element_by_name('accountNumber')
+		next_button = self.browser.find_element_by_id('Next')
 
-		self.browser.get(self.local_variables['webSiteStr'])
-
-		surname = WebDriverWait(self.browser, 10).until(
-			EC.presence_of_element_located((By.ID, "surname0"))
-		)
-
-		card_no_rb = self.browser.find_element_by_xpath("//div[4]/div[1]/div[@class='row validation-combo' and 1]/span[@class='col-5-xl col-4-m col-6-s col-6-xs' and 1]/div[@class='radio-control' and 1]/label[@class='narrow' and 1]")
-		card_no_rb.click()
-		card_no_0 = self.browser.find_element_by_xpath("//input[@id='cardNumber0']")
-		card_no_1 = self.browser.find_element_by_xpath("//input[@id='cardNumber1']")
-		card_no_2 = self.browser.find_element_by_xpath("//input[@id='cardNumber2']")
-		card_no_3 = self.browser.find_element_by_xpath("//input[@id='cardNumber3']")
-		#surname = self.browser.find_element_by_id('surname0')
-		next_step_bt = self.browser.find_element_by_xpath("//button")
-
+		# Input required credentials into fields and click next
 		surname.send_keys(self.local_variables['surnameStr'])
-		card_no_0.send_keys(self.local_variables['card0'])
-		card_no_1.send_keys(self.local_variables['card1'])
-		card_no_2.send_keys(self.local_variables['card2'])
-		card_no_3.send_keys(self.local_variables['card3'])
-		next_step_bt.click()
+		sc1.send_keys(self.local_variables['sortcode1Str'])
+		sc2.send_keys(self.local_variables['sortcode2Str'])
+		sc3.send_keys(self.local_variables['sortcode3Str'])
+		acc_no.send_keys(self.local_variables['accountNoStr'])
+		next_button.click()
 
 		# Second login screen
-		mem_characters = WebDriverWait(self.browser, 10).until(
-			EC.presence_of_element_located((By.ID, "label-memorableCharacters"))
-		)
+		# Get all elements needed on second login page
+		passcode = self.browser.find_element_by_xpath("//input[@name = 'passcode']")
+		memorable_word_l1 = self.browser.find_element_by_name("firstMemorableCharacter")
+		memorable_word_l2 = self.browser.find_element_by_name("secondMemorableCharacter")
+		login_btn = self.browser.find_element_by_id('Login')
 
-		first_char =  mem_characters.text.split()[1][0]
-		second_char = mem_characters.text.split()[3][0]
+		# Send passcode
+		passcode.send_keys(self.local_variables['passcode'])
 
-		first_char_menu = self.browser.find_element_by_xpath("//div[@class='dropdown firstMemorableCharacter']/div[@id='selectedCharacter' and @class='dropdown__selected ng-binding' and 1]")
-		first_char_menu.click()
-		time.sleep(5)
-		first_char_menu_select = self.browser.find_element_by_xpath("//*[starts-with(@id,'item') and contains(@id,'_2')]")
-		#WebDriverWait(self.browser, 3).until(EC.visibility_of_element_located((By.XPATH,"//*[starts-with(@id,'item') and contains(@id,'_2')]" )))
-		#self.browser.execute_script("arguments[0].scrollIntoView(true);", first_char_menu_select)
-		#self.browser.switch_to().frame(self.browser.find_element_by_xpath("//*[starts-with(@id,'item') and contains(@id,'_2')]"))
-		actions = ActionChains(self.browser)
-		actions.move_to_element(first_char_menu_select).perform()
-		time.sleep(1)
-		first_char_menu_select.click()
+		# Get page source to determine which memorable characters are needed
+		src = self.browser.page_source
 
-		print int(first_char)
-		print self.local_variables['memorable'][int(first_char)]
-		print mem_characters.text.split()
+		# Iterate through the potential characers, checking if the text is on the page and
+		# send that character to the correct element
+		found_first = False
+		index = 0
+		while index < 8:
+			if ("Select letter " + str(index) in src):
+				if found_first == False:
+					memorable_word_l1.send_keys(self.local_variables['memorable'][index-1])
+					found_first = True
+				else:
+					memorable_word_l2.send_keys(self.local_variables['memorable'][index-1])
+			index += 1
 
-		#surname=self.browser.find_element_by_name('surname')
-		#sc1 = self.browser.find_element_by_name('sortCodeSet1')
-		#sc2 = self.browser.find_element_by_name('sortCodeSet2')
-		#sc3 = self.browser.find_element_by_name('sortCodeSet3')
-		#acc_no = self.browser.find_element_by_name('accountNumber')
-		#next_button = self.browser.find_element_by_id('Next')
-
-		# Input required credentials into fields
-
-
-		#sc1.send_keys(self.local_variables['sortcode1Str'])
-		#sc2.send_keys(self.local_variables['sortcode2Str'])
-		#sc3.send_keys(self.local_variables['sortcode3Str'])
-		#acc_no.send_keys(self.local_variables['accountNoStr'])
-		#next_button.click()
-
-		# Second login screen
-		# passcode = self.browser.find_element_by_id('passcode')
-		#passcode = self.browser.find_element_by_xpath("//input[@name = 'passcode']")
-		#passcode.send_keys(self.local_variables['passcode'])
-
+		# Complete the login process by clicking login button
+		login_btn.click()
 
 def main():
 	webBot()
