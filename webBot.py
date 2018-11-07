@@ -38,12 +38,12 @@ class webBot(object):
 
 		# First login screen
 		# Get all elements needed on first login page
-		surname=self.browser.find_element_by_name('surname')
-		sc1 = self.browser.find_element_by_name('sortCodeSet1')
-		sc2 = self.browser.find_element_by_name('sortCodeSet2')
-		sc3 = self.browser.find_element_by_name('sortCodeSet3')
-		acc_no = self.browser.find_element_by_name('accountNumber')
-		next_button = self.browser.find_element_by_id('Next')
+		surname = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"surname")))
+		sc1 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet1")))
+		sc2 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet2")))
+		sc3 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet3")))
+		acc_no = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"accountNumber")))
+		next_button = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Next")))
 
 		# Input required credentials into fields and click next
 		surname.send_keys(self.local_variables['surnameStr'])
@@ -55,10 +55,10 @@ class webBot(object):
 
 		# Second login screen
 		# Get all elements needed on second login page
-		passcode = self.browser.find_element_by_xpath("//input[@name = 'passcode']")
-		memorable_word_l1 = self.browser.find_element_by_name("firstMemorableCharacter")
-		memorable_word_l2 = self.browser.find_element_by_name("secondMemorableCharacter")
-		login_btn = self.browser.find_element_by_id('Login')
+		passcode = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//input[@name = 'passcode']")))
+		memorable_word_l1 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"firstMemorableCharacter")))
+		memorable_word_l2 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"secondMemorableCharacter")))
+		login_btn = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Login")))
 
 		# Send passcode
 		passcode.send_keys(self.local_variables['passcode'])
@@ -91,10 +91,13 @@ class webBot(object):
 
 		# Wait for loading
 		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
-		from_account = Select(self.browser.find_element_by_xpath("//*[@id='fromAccountId']"))
-		to_account = Select(self.browser.find_element_by_xpath("//*[@id='toAccountId']"))
-		amount = self.browser.find_element_by_id('transferAmount')
-		continue_btn = self.browser.find_element_by_id('Continue')
+
+		from_account = Select(WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//*[@id='fromAccountId']"))))
+		to_account = Select(WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//*[@id='toAccountId']"))))
+		amount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"transferAmount")))
+		continue_btn = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Continue")))
+
+
 		from_account.select_by_value(str(self.local_variables['sortCode'])+str(self.local_variables['MonthlyStorage']))
 		to_account.select_by_value(str(self.local_variables['sortCode'])+str(self.local_variables['CurrentAccount']))
 		amount.send_keys('0.10')
@@ -102,8 +105,8 @@ class webBot(object):
 
 		# Wait for loading
 		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
-		#time.sleep(2)
-		confirm = self.browser.find_element_by_id('Confirm')
+
+		confirm = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Confirm")))
 		confirm.click()
 
 		# Wait for loading
