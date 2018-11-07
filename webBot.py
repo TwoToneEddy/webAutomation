@@ -97,15 +97,22 @@ class webBot(object):
 		continue_btn = self.browser.find_element_by_id('Continue')
 		from_account.select_by_value(str(self.local_variables['sortCode'])+str(self.local_variables['MonthlyStorage']))
 		to_account.select_by_value(str(self.local_variables['sortCode'])+str(self.local_variables['CurrentAccount']))
-		amount.send_keys('1.10')
+		amount.send_keys('0.10')
 		continue_btn.click()
 
 		# Wait for loading
-		#WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 		#time.sleep(2)
-		ignored_exceptions=(NoSuchElementException,StaleElementReferenceException,)
-		confirm_btn = WebDriverWait(self.browser,2).until(f)
-		continue_btn.send_keys(Keys.RETURN)
+		confirm = self.browser.find_element_by_id('Confirm')
+		confirm.click()
+
+		# Wait for loading
+		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		back_to_acc_btn = WebDriverWait(self.browser,20).until(EC.element_to_be_clickable((By.ID,'Back to accounts')))
+		back_to_acc_btn.click()
+
+		# Wait for loading
+		WebDriverWait(self.browser,10).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 
 def main():
 	webBot()
