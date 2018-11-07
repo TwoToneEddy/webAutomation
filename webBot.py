@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import re
 from selenium.common import exceptions
+#from pyvirtualdisplay import Display
 
 from selenium.webdriver.support.ui import Select
 import time
@@ -21,6 +22,8 @@ import time
 class webBot(object):
 	def __init__(self):
 		self.read_local_variables()
+		#display = Display(visible=0, size=(1024, 768))
+		#display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
 
