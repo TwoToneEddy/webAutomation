@@ -15,12 +15,13 @@ from selenium.webdriver.common.keys import Keys
 import re
 from selenium.common import exceptions
 #from pyvirtualdisplay import Display
-
+import datetime
 from selenium.webdriver.support.ui import Select
 import time
 
 class webBot(object):
 	def __init__(self):
+		print str(datetime.datetime.now())
 		self.read_local_variables()
 		#display = Display(visible=0, size=(1024, 768))
 		#display.start()
