@@ -116,20 +116,14 @@ class webBot(object):
 			str(self.local_variables['sortCode']) + str(fromAccount))
 		to_account.select_by_value(str(self.local_variables['sortCode']) + str(toAccount))
 
-		# Check current balance
-		balance = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.XPATH, "/html/body/section/form/div[2]/div/div[3]/div[3]/b")))
-		balance_str = balance.text
-		balance_str = balance_str.strip('£')
-		print balance_str
-
 		amount_field.send_keys(amount)
-		#continue_btn.click()
+		continue_btn.click()
 
 		# Wait for loading
-		#WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 
-		#confirm = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Confirm")))
-		#confirm.click()
+		confirm = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Confirm")))
+		confirm.click()
 
 		# Wait for loading
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
