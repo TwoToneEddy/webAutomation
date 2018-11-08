@@ -26,6 +26,7 @@ class webBot(object):
 		#display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.10')
 
 	def read_local_variables(self):
 		self.local_variables = {}
@@ -88,37 +89,56 @@ class webBot(object):
 		# Wait for loading
 		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 
+
+
+	def transfer(self,fromAccount,toAccount,amount):
+
+		print fromAccount
+		print toAccount
+		print amount
+
 		# Wait for button and click
-		move_money_btn = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"/html/body/nav[2]/div/div/div/ul/li[3]/a")))
+		move_money_btn = WebDriverWait(self.browser, 60).until(
+			EC.presence_of_element_located((By.XPATH, "/html/body/nav[2]/div/div/div/ul/li[3]/a")))
 		move_money_btn.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 
-		from_account = Select(WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//*[@id='fromAccountId']"))))
-		to_account = Select(WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//*[@id='toAccountId']"))))
-		amount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"transferAmount")))
-		continue_btn = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Continue")))
+		from_account = Select(WebDriverWait(self.browser, 60).until(
+			EC.presence_of_element_located((By.XPATH, "//*[@id='fromAccountId']"))))
+		to_account = Select(
+			WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.XPATH, "//*[@id='toAccountId']"))))
+		amount_field = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "transferAmount")))
+		continue_btn = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Continue")))
 
+		from_account.select_by_value(
+			str(self.local_variables['sortCode']) + str(fromAccount))
+		to_account.select_by_value(str(self.local_variables['sortCode']) + str(toAccount))
 
-		from_account.select_by_value(str(self.local_variables['sortCode'])+str(self.local_variables['MonthlyStorage']))
-		to_account.select_by_value(str(self.local_variables['sortCode'])+str(self.local_variables['CurrentAccount']))
-		amount.send_keys('0.10')
-		continue_btn.click()
+		# Check current balance
+		balance = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.XPATH, "/html/body/section/form/div[2]/div/div[3]/div[3]/b")))
+		balance_str = balance.text
+		balance_str = balance_str.strip('£')
+		print balance_str
+
+		amount_field.send_keys(amount)
+		#continue_btn.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		#WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 
-		confirm = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Confirm")))
-		confirm.click()
+		#confirm = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Confirm")))
+		#confirm.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
-		back_to_acc_btn = WebDriverWait(self.browser,60).until(EC.element_to_be_clickable((By.ID,'Back to accounts')))
+		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		back_to_acc_btn = WebDriverWait(self.browser, 60).until(EC.element_to_be_clickable((By.ID, 'Back to accounts')))
 		back_to_acc_btn.click()
 
 		# Wait for loading
-		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+
 
 def main():
 	webBot()
