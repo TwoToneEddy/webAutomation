@@ -29,6 +29,7 @@ class webBot(object):
 		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.10')
 
 	def read_local_variables(self):
+		print "Reading text file"
 		self.local_variables = {}
 		with open('/home/localVariables.txt') as file:
 			for line in file:
@@ -38,18 +39,23 @@ class webBot(object):
 
 	def login(self):
 		# Open correct webpage
+		print "Starting login process"
+		print "Opening " + self.local_variables['webSiteStr1']
 		self.browser.get(self.local_variables['webSiteStr1'])
 
 		# First login screen
 		# Get all elements needed on first login page
+		print "Finding elements on first page"
 		surname = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"surname")))
 		sc1 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet1")))
 		sc2 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet2")))
 		sc3 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet3")))
 		acc_no = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"accountNumber")))
 		next_button = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Next")))
+		print "Found all elements on first page"
 
 		# Input required credentials into fields and click next
+		print "Sending keys"
 		surname.send_keys(self.local_variables['surnameStr'])
 		sc1.send_keys(self.local_variables['sortcode1Str'])
 		sc2.send_keys(self.local_variables['sortcode2Str'])
@@ -59,13 +65,16 @@ class webBot(object):
 
 		# Second login screen
 		# Get all elements needed on second login page
+		print "Finding elements on second page"
 		passcode = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//input[@name = 'passcode']")))
 		memorable_word_l1 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"firstMemorableCharacter")))
 		memorable_word_l2 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"secondMemorableCharacter")))
 		login_btn = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Login")))
+		print "Found all elements on second page"
 
 		# Send passcode
 		passcode.send_keys(self.local_variables['passcode'])
+		print "Passcode Sent"
 
 		# Get page source to determine which memorable characters are needed
 		src = self.browser.page_source
@@ -77,61 +86,81 @@ class webBot(object):
 		while index < 8:
 			if ("Select letter " + str(index) in src):
 				if found_first == False:
+					print "First memorable character sent"
 					memorable_word_l1.send_keys(self.local_variables['memorable'][index-1])
 					found_first = True
 				else:
+					print "Second memorable character sent"
 					memorable_word_l2.send_keys(self.local_variables['memorable'][index-1])
 			index += 1
 
 		# Complete the login process by clicking login button
 		login_btn.click()
-
+		print "Login button clicked"
 		# Wait for loading
 		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		print "Logged on"
 
 
 
 	def transfer(self,fromAccount,toAccount,amount):
-
-		print fromAccount
-		print toAccount
-		print amount
+		print "Starting transfer"
+		print "Transferring" + str(amount) + " from " + fromAccount + " to " + toAccount
 
 		# Wait for button and click
 		move_money_btn = WebDriverWait(self.browser, 60).until(
 			EC.presence_of_element_located((By.XPATH, "/html/body/nav[2]/div/div/div/ul/li[3]/a")))
 		move_money_btn.click()
+		print "Move money button clicked"
 
 		# Wait for loading
+		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		print "Loading Complete!"
 
+		print "Finding all elements on transfer page"
 		from_account = Select(WebDriverWait(self.browser, 60).until(
 			EC.presence_of_element_located((By.XPATH, "//*[@id='fromAccountId']"))))
 		to_account = Select(
 			WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.XPATH, "//*[@id='toAccountId']"))))
 		amount_field = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "transferAmount")))
 		continue_btn = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Continue")))
+		print "Found ll elements on transfer page"
 
+		print "Selecting accounts"
 		from_account.select_by_value(
 			str(self.local_variables['sortCode']) + str(fromAccount))
 		to_account.select_by_value(str(self.local_variables['sortCode']) + str(toAccount))
 
+		print "Sendind amount"
 		amount_field.send_keys(amount)
 		continue_btn.click()
+		print "Continue clicked"
 
 		# Wait for loading
+		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		print "Loading Complete!"
 
+		print "Waiting for confirm button"
 		confirm = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Confirm")))
 		confirm.click()
-
+		print "Confirm button clicked"
 		# Wait for loading
+
+		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		print "Loading Complete!"
+		print "Waiting for back to accounts button"
 		back_to_acc_btn = WebDriverWait(self.browser, 60).until(EC.element_to_be_clickable((By.ID, 'Back to accounts')))
 		back_to_acc_btn.click()
+		print "Back to accounts clicked"
 
 		# Wait for loading
+		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		print "Loading Complete!"
+		print "Transfer complete!"
 
 
 def main():
