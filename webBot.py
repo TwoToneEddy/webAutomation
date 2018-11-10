@@ -43,9 +43,9 @@ class webBot(object):
 		# Open correct webpage
 		print "Starting login process"
 		print "Opening " + self.local_variables['webSiteStr1']
-		self.browser.set_window_size(2000,2000)
+		#self.browser.set_window_size(2000,2000)
 		self.browser.get(self.local_variables['webSiteStr1'])
-		self.browser.execute_script("document.body.style.zoom='150%'")
+		#self.browser.execute_script("document.body.style.zoom='150%'")
 
 		# First login screen
 		# Get all elements needed on first login page
