@@ -149,7 +149,7 @@ class webBot(object):
 		print "Loading Complete!"
 
 		print "Waiting for confirm button"
-		confirm = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Confirm")))
+		confirm = WebDriverWait(self.browser, 60).until(EC.element_to_be_clickable((By.ID, "Confirm")))
 		confirm.click()
 		print "Confirm button clicked"
 		# Wait for loading
