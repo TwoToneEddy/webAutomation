@@ -120,8 +120,9 @@ class webBot(object):
 		print "Move money button clicked"
 
 		# Wait for loading
-		print "Loading...."
+		print "Waiting for loading screen..."
 		WebDriverWait(self.browser, 60).until(EC.visibility_of_element_located((By.CLASS_NAME, "loading")))
+		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 
