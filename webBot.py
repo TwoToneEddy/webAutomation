@@ -27,6 +27,7 @@ class webBot(object):
 		#display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
+
 		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.10')
 
 	def read_local_variables(self):
@@ -42,7 +43,9 @@ class webBot(object):
 		# Open correct webpage
 		print "Starting login process"
 		print "Opening " + self.local_variables['webSiteStr1']
+		self.browser.set_window_size(2000,2000)
 		self.browser.get(self.local_variables['webSiteStr1'])
+		self.browser.execute_script("document.body.style.zoom='150%'")
 
 		# First login screen
 		# Get all elements needed on first login page
@@ -109,8 +112,10 @@ class webBot(object):
 		print "Transferring" + str(amount) + " from " + fromAccount + " to " + toAccount
 
 		# Wait for button and click
+		#move_money_btn = WebDriverWait(self.browser, 60).until(
+			#EC.presence_of_element_located((By.XPATH, "/html/body/nav[2]/div/div/div/ul/li[3]/a")))
 		move_money_btn = WebDriverWait(self.browser, 60).until(
-			EC.presence_of_element_located((By.XPATH, "/html/body/nav[2]/div/div/div/ul/li[3]/a")))
+			EC.presence_of_element_located((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
 		move_money_btn.click()
 		print "Move money button clicked"
 
