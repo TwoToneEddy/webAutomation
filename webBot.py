@@ -17,19 +17,22 @@ from selenium.common import exceptions
 #from pyvirtualdisplay import Display
 import datetime
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.firefox.options import Options
 import time
 
 class webBot(object):
 	def __init__(self):
 		print str(datetime.datetime.now())
 		self.read_local_variables()
+		self.options = Options()
+		self.options.headless = True
 		#display = Display(visible=0, size=(1024, 768))
 		#display.start()
-		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
+		self.browser = webdriver.Firefox(options=self.options,executable_path=self.local_variables['geckoPathStr'])
 		self.login()
 
 		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.01')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.01')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.01')
 		self.browser.close()
 
 	def read_local_variables(self):
@@ -171,9 +174,9 @@ class webBot(object):
 
 		# Wait for loading
 		print "Loading...."
-		EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)"))
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
+		#time.sleep(30)
 		print "Transfer complete!"
 
 
