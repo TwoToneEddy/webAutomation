@@ -29,6 +29,7 @@ class webBot(object):
 		self.login()
 
 		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.01')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.01')
 		self.browser.close()
 
 	def read_local_variables(self):
