@@ -29,6 +29,7 @@ class webBot(object):
 		self.login()
 
 		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.10')
+		self.browser.close()
 
 	def read_local_variables(self):
 		print "Reading text file"
@@ -169,6 +170,7 @@ class webBot(object):
 
 		# Wait for loading
 		print "Loading...."
+		EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)"))
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 		print "Transfer complete!"
