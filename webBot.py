@@ -24,11 +24,9 @@ class webBot(object):
 	def __init__(self):
 		print str(datetime.datetime.now())
 		self.read_local_variables()
-		self.options = Options()
-		self.options.headless = True
 		#display = Display(visible=0, size=(1024, 768))
 		#display.start()
-		self.browser = webdriver.Firefox(options=self.options,executable_path=self.local_variables['geckoPathStr'])
+		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
 
 		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.01')
@@ -176,7 +174,7 @@ class webBot(object):
 		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
-		#time.sleep(30)
+		time.sleep(30)
 		print "Transfer complete!"
 
 
