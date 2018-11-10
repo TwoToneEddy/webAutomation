@@ -120,9 +120,9 @@ class webBot(object):
 		print "Move money button clicked"
 
 		# Wait for loading
-		print "Waiting for loading screen..."
-		WebDriverWait(self.browser, 60).until(EC.visibility_of_element_located((By.CLASS_NAME, "loading")))
 		print "Loading...."
+
+		WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.XPATH, "//*[@id='toAccountId']")))
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 
@@ -146,9 +146,9 @@ class webBot(object):
 		print "Continue clicked"
 
 		# Wait for loading
-		print "Waiting for loading screen..."
-		WebDriverWait(self.browser, 60).until(EC.visibility_of_element_located((By.CLASS_NAME, "loading")))
 		print "Loading...."
+
+		WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Confirm")))
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 
@@ -158,9 +158,8 @@ class webBot(object):
 		print "Confirm button clicked"
 		# Wait for loading
 
-		print "Waiting for loading screen..."
-		WebDriverWait(self.browser, 60).until(EC.visibility_of_element_located((By.CLASS_NAME, "loading")))
 		print "Loading...."
+		WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Back to accounts")))
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 		print "Waiting for back to accounts button"
@@ -169,8 +168,6 @@ class webBot(object):
 		print "Back to accounts clicked"
 
 		# Wait for loading
-		print "Waiting for loading screen..."
-		WebDriverWait(self.browser, 60).until(EC.visibility_of_element_located((By.CLASS_NAME, "loading")))
 		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
