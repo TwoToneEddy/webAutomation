@@ -115,7 +115,7 @@ class webBot(object):
 		#move_money_btn = WebDriverWait(self.browser, 60).until(
 			#EC.presence_of_element_located((By.XPATH, "/html/body/nav[2]/div/div/div/ul/li[3]/a")))
 		move_money_btn = WebDriverWait(self.browser, 60).until(
-			EC.presence_of_element_located((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
+			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
 		move_money_btn.click()
 		print "Move money button clicked"
 
