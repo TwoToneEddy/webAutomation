@@ -29,8 +29,13 @@ class webBot(object):
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
 
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.01')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CurrentAccount'],'0.02')
+		self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'0.20')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'0.01')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'0.01')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'0.01')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'0.01')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'0.01')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'0.01')
 		self.browser.close()
 
 	def read_local_variables(self):
