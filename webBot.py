@@ -31,13 +31,13 @@ class webBot(object):
 		if self.qBeenPaid():
 			print "Been paid"
 			self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'0.20')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'0.01')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'0.01')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'0.01')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'0.01')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'0.01')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'0.01')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'0.01')
+			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'0.01')
+			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'0.01')
+			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'0.01')
+			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'0.01')
+			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'0.01')
+			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'0.01')
+			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'0.01')
 		else:
 			print "Not been paid"
 
@@ -121,6 +121,7 @@ class webBot(object):
 	def qBeenPaid(self):
 		currentAccount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"/html/body/section/div[4]/div[1]/div[1]/div/p[2]")))
 		currentAccount.click()
+		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		currentAccount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.CLASS_NAME,"balance-text")))
 		balance = currentAccount.text[1:]
 		balanceFloat = float(balance)
