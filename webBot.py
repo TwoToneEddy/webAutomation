@@ -28,14 +28,19 @@ class webBot(object):
 		display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
+		if self.qBeenPaid():
+			print "Been paid"
+			self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'0.20')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'0.01')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'0.01')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'0.01')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'0.01')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'0.01')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'0.01')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'0.01')
+		else:
+			print "Not been paid"
 
-		self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'0.20')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'0.01')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'0.01')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'0.01')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'0.01')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'0.01')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'0.01')
 		self.browser.close()
 
 	def read_local_variables(self):
@@ -113,18 +118,35 @@ class webBot(object):
 		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 		print "Logged on"
 
+	def qBeenPaid(self):
+		currentAccount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"/html/body/section/div[4]/div[1]/div[1]/div/p[2]")))
+		currentAccount.click()
+		currentAccount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.CLASS_NAME,"balance-text")))
+		balance = currentAccount.text[1:]
+		balanceFloat = float(balance)
 
+		if balanceFloat > 20:
+			result=True
+		else:
+			result=False
+		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		home_btn = WebDriverWait(self.browser, 60).until(
+			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(1) > a:nth-child(1)")))
+		home_btn.click()
+		WebDriverWait(self.browser, 60).until(
+			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
+		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		return result
 
 	def transfer(self,fromAccount,toAccount,amount):
 		print "Starting transfer"
 		print "Transferring" + str(amount) + " from " + fromAccount + " to " + toAccount
 
 		# Wait for button and click
-		#move_money_btn = WebDriverWait(self.browser, 60).until(
-			#EC.presence_of_element_located((By.XPATH, "/html/body/nav[2]/div/div/div/ul/li[3]/a")))
 		move_money_btn = WebDriverWait(self.browser, 60).until(
 			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
 		move_money_btn.click()
+
 		print "Move money button clicked"
 
 		# Wait for loading
@@ -147,6 +169,15 @@ class webBot(object):
 		from_account.select_by_value(
 			str(self.local_variables['sortCode']) + str(fromAccount))
 		to_account.select_by_value(str(self.local_variables['sortCode']) + str(toAccount))
+
+
+		balance = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "availableBalanceDiv")))
+		balancestr = balance.text[27:]
+		balanceFloat = float(balancestr)
+		if float(balanceFloat) < float(amount):
+			print "Not enough funds"
+			self.browser.close()
+			quit()
 
 		print "Sendind amount"
 		amount_field.send_keys(amount)
