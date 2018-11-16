@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import re
 from selenium.common import exceptions
-from pyvirtualdisplay import Display
+#from pyvirtualdisplay import Display
 import datetime
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
@@ -24,20 +24,20 @@ class webBot(object):
 	def __init__(self):
 		print str(datetime.datetime.now())
 		self.read_local_variables()
-		display = Display(visible=0, size=(1024, 768))
-		display.start()
+		#display = Display(visible=0, size=(1024, 768))
+		#display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
 		if self.qBeenPaid():
 			print "Been paid"
-			self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'0.20')
-			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'0.01')
-			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'0.01')
-			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'0.01')
-			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'0.01')
-			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'0.01')
-			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'0.01')
-			#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'0.01')
+			self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'2504.0')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'465.92')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'94.00')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'12.55')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'184.00')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'754.80')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'310.00')
+			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'30.00')
 		else:
 			print "Not been paid"
 
@@ -126,7 +126,7 @@ class webBot(object):
 		balance = currentAccount.text[1:]
 		balanceFloat = float(balance)
 
-		if balanceFloat > 20:
+		if balanceFloat > 2000:
 			result=True
 		else:
 			result=False
