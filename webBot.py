@@ -24,10 +24,12 @@ class webBot(object):
 	def __init__(self):
 		print str(datetime.datetime.now())
 		self.read_local_variables()
+		self.timeout = 180
 		display = Display(visible=0, size=(1024, 768))
 		display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
+		#self.transfer(self.local_variables['MonthlyStorage'], self.local_variables['CurrentAccount'], '1100.0')
 		#self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'2546.0')
 		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'465.92')
 		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'94.00')
@@ -65,12 +67,12 @@ class webBot(object):
 		# First login screen
 		# Get all elements needed on first login page
 		print "Finding elements on first page"
-		surname = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"surname")))
-		sc1 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet1")))
-		sc2 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet2")))
-		sc3 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"sortCodeSet3")))
-		acc_no = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"accountNumber")))
-		next_button = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Next")))
+		surname = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"surname")))
+		sc1 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"sortCodeSet1")))
+		sc2 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"sortCodeSet2")))
+		sc3 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"sortCodeSet3")))
+		acc_no = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"accountNumber")))
+		next_button = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.ID,"Next")))
 		print "Found all elements on first page"
 
 		# Input required credentials into fields and click next
@@ -85,10 +87,10 @@ class webBot(object):
 		# Second login screen
 		# Get all elements needed on second login page
 		print "Finding elements on second page"
-		passcode = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"//input[@name = 'passcode']")))
-		memorable_word_l1 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"firstMemorableCharacter")))
-		memorable_word_l2 = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.NAME,"secondMemorableCharacter")))
-		login_btn = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.ID,"Login")))
+		passcode = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"//input[@name = 'passcode']")))
+		memorable_word_l1 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"firstMemorableCharacter")))
+		memorable_word_l2 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"secondMemorableCharacter")))
+		login_btn = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.ID,"Login")))
 		print "Found all elements on second page"
 
 		# Send passcode
@@ -117,14 +119,14 @@ class webBot(object):
 		login_btn.click()
 		print "Login button clicked"
 		# Wait for loading
-		WebDriverWait(self.browser,60).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
+		WebDriverWait(self.browser,self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME,"loading")))
 		print "Logged on"
 
 	def qBeenPaid(self):
-		currentAccount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.XPATH,"/html/body/section/div[4]/div[1]/div[1]/div/p[2]")))
+		currentAccount = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"/html/body/section/div[4]/div[1]/div[1]/div/p[2]")))
 		currentAccount.click()
-		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
-		currentAccount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.CLASS_NAME,"balance-text")))
+		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		currentAccount = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.CLASS_NAME,"balance-text")))
 		balance = currentAccount.text[1:]
 		print balance
 		print balance.replace(',','')
@@ -135,13 +137,13 @@ class webBot(object):
 			result=True
 		else:
 			result=False
-		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
-		home_btn = WebDriverWait(self.browser, 60).until(
+		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		home_btn = WebDriverWait(self.browser, self.timeout).until(
 			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(1) > a:nth-child(1)")))
 		home_btn.click()
-		WebDriverWait(self.browser, 60).until(
+		WebDriverWait(self.browser, self.timeout).until(
 			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
-		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		return result
 
 	def transfer(self,fromAccount,toAccount,amount):
@@ -149,7 +151,7 @@ class webBot(object):
 		print "Transferring" + str(amount) + " from " + fromAccount + " to " + toAccount
 
 		# Wait for button and click
-		move_money_btn = WebDriverWait(self.browser, 60).until(
+		move_money_btn = WebDriverWait(self.browser, self.timeout).until(
 			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
 		move_money_btn.click()
 
@@ -158,17 +160,17 @@ class webBot(object):
 		# Wait for loading
 		print "Loading...."
 
-		WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.XPATH, "//*[@id='toAccountId']")))
-		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		WebDriverWait(self.browser, self.timeout).until(EC.presence_of_element_located((By.XPATH, "//*[@id='toAccountId']")))
+		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 
 		print "Finding all elements on transfer page"
-		from_account = Select(WebDriverWait(self.browser, 60).until(
+		from_account = Select(WebDriverWait(self.browser, self.timeout).until(
 			EC.presence_of_element_located((By.XPATH, "//*[@id='fromAccountId']"))))
 		to_account = Select(
-			WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.XPATH, "//*[@id='toAccountId']"))))
-		amount_field = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "transferAmount")))
-		continue_btn = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Continue")))
+			WebDriverWait(self.browser, self.timeout).until(EC.presence_of_element_located((By.XPATH, "//*[@id='toAccountId']"))))
+		amount_field = WebDriverWait(self.browser, self.timeout).until(EC.presence_of_element_located((By.ID, "transferAmount")))
+		continue_btn = WebDriverWait(self.browser, self.timeout).until(EC.presence_of_element_located((By.ID, "Continue")))
 		print "Found ll elements on transfer page"
 
 		print "Selecting accounts"
@@ -193,28 +195,28 @@ class webBot(object):
 		# Wait for loading
 		print "Loading...."
 
-		WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Confirm")))
-		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		WebDriverWait(self.browser, self.timeout).until(EC.presence_of_element_located((By.ID, "Confirm")))
+		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 
 		print "Waiting for confirm button"
-		confirm = WebDriverWait(self.browser, 60).until(EC.element_to_be_clickable((By.ID, "Confirm")))
+		confirm = WebDriverWait(self.browser, self.timeout).until(EC.element_to_be_clickable((By.ID, "Confirm")))
 		confirm.click()
 		print "Confirm button clicked"
 		# Wait for loading
 
 		print "Loading...."
-		WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "Back to accounts")))
-		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		WebDriverWait(self.browser, self.timeout).until(EC.presence_of_element_located((By.ID, "Back to accounts")))
+		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 		print "Waiting for back to accounts button"
-		back_to_acc_btn = WebDriverWait(self.browser, 60).until(EC.element_to_be_clickable((By.ID, 'Back to accounts')))
+		back_to_acc_btn = WebDriverWait(self.browser, self.timeout).until(EC.element_to_be_clickable((By.ID, 'Back to accounts')))
 		back_to_acc_btn.click()
 		print "Back to accounts clicked"
 
 		# Wait for loading
 		print "Loading...."
-		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
 		#time.sleep(20)
 		print "Transfer complete!"
