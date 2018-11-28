@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import re
 from selenium.common import exceptions
-#from pyvirtualdisplay import Display
+from pyvirtualdisplay import Display
 import datetime
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
@@ -24,22 +24,24 @@ class webBot(object):
 	def __init__(self):
 		print str(datetime.datetime.now())
 		self.read_local_variables()
-		#display = Display(visible=0, size=(1024, 768))
-		#display.start()
+		display = Display(visible=0, size=(1024, 768))
+		display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
-		self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'2546.0')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'465.92')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'94.00')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'12.55')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'184.00')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'754.80')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'352.00')
-		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'30.00')
-		#if self.qBeenPaid():
-			#print "Been paid"
-		#else:
-			#print "Not been paid"
+		#self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'2546.0')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'465.92')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'94.00')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'12.55')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'184.00')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'754.80')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'352.00')
+		#self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'30.00')
+		if self.qBeenPaid():
+			self.transfer(self.local_variables['CurrentAccount'], self.local_variables['MonthlyStorage'], '1100.0')
+			print "Been paid"
+
+		else:
+			print "Not been paid"
 
 		self.browser.close()
 
@@ -124,9 +126,12 @@ class webBot(object):
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		currentAccount = WebDriverWait(self.browser,60).until(EC.presence_of_element_located((By.CLASS_NAME,"balance-text")))
 		balance = currentAccount.text[1:]
-		balanceFloat = float(balance)
+		print balance
+		print balance.replace(',','')
+		balanceFloat = float(balance.replace(',',''))
 
-		if balanceFloat > 2000:
+
+		if balanceFloat > 1000:
 			result=True
 		else:
 			result=False
