@@ -28,18 +28,18 @@ class webBot(object):
 		#display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
-		if self.qBeenPaid():
-			print "Been paid"
-			self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'2504.0')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'465.92')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'94.00')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'12.55')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'184.00')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'754.80')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'310.00')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'30.00')
-		else:
-			print "Not been paid"
+		self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'2546.0')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'465.92')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'94.00')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'12.55')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'184.00')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'754.80')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'352.00')
+		self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'30.00')
+		#if self.qBeenPaid():
+			#print "Been paid"
+		#else:
+			#print "Not been paid"
 
 		self.browser.close()
 
@@ -172,13 +172,13 @@ class webBot(object):
 		to_account.select_by_value(str(self.local_variables['sortCode']) + str(toAccount))
 
 
-		balance = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "availableBalanceDiv")))
-		balancestr = balance.text[27:]
-		balanceFloat = float(balancestr)
-		if float(balanceFloat) < float(amount):
-			print "Not enough funds"
-			self.browser.close()
-			quit()
+		#balance = WebDriverWait(self.browser, 60).until(EC.presence_of_element_located((By.ID, "availableBalanceDiv")))
+		#balancestr = balance.text[27:]
+		#balanceFloat = float(balancestr)
+		#if float(balanceFloat) < float(amount):
+			#print "Not enough funds"
+			#self.browser.close()
+			#quit()
 
 		print "Sendind amount"
 		amount_field.send_keys(amount)
@@ -211,7 +211,7 @@ class webBot(object):
 		print "Loading...."
 		WebDriverWait(self.browser, 60).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		print "Loading Complete!"
-		time.sleep(20)
+		#time.sleep(20)
 		print "Transfer complete!"
 
 
