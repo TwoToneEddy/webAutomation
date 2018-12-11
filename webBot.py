@@ -39,6 +39,7 @@ class webBot(object):
 		print str(datetime.datetime.now())
 		self.read_local_variables()
 		self.timeout = 180
+		self.currentBalance = 0
 		display = Display(visible=0, size=(1024, 768))
 		display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
@@ -139,8 +140,6 @@ class webBot(object):
 		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
 		currentAccount = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.CLASS_NAME,"balance-text")))
 		balance = currentAccount.text[1:]
-		print balance
-		print balance.replace(',','')
 		balanceFloat = float(balance.replace(',',''))
 
 
@@ -155,6 +154,7 @@ class webBot(object):
 		WebDriverWait(self.browser, self.timeout).until(
 			EC.element_to_be_clickable((By.CSS_SELECTOR, ".bottom-fixed-menu > li:nth-child(3) > a:nth-child(1)")))
 		WebDriverWait(self.browser, self.timeout).until(EC.invisibility_of_element((By.CLASS_NAME, "loading")))
+		self.currentBalance = balanceFloat
 		return result
 
 	def transfer(self,fromAccount,toAccount,amount):
