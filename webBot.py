@@ -45,15 +45,9 @@ class webBot(object):
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
 		if self.qBeenPaid():
-			# Transfer pay
-			self.transfer(self.local_variables['CurrentAccount'],self.local_variables['MonthlyStorage'],'2546.0')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Bills'],'465.92')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['GasAndElectric'],'94.00')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['TvLicense'],'12.55')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['CouncilTax'],'184.00')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Mortgage'],'754.80')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Spare'],'352.00')
-			self.transfer(self.local_variables['MonthlyStorage'],self.local_variables['Water'],'30.00')
+			#Transfer pay
+			for a in self.transfers:
+				self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
 		else:
 			print "Not been paid"
 
@@ -66,6 +60,13 @@ class webBot(object):
 			for line in file:
 				(key,val) = line.split(',')
 				self.local_variables[key] = val.strip('\n')
+		self.transfers = []
+
+		with open('transfers.txt') as file:
+			for line in file:
+				(src,dest,val) = line.split(',')
+				self.transfers.append((src.strip('\n'),dest.strip('\n'),float(val.strip('\n'))))
+
 
 
 	def login(self):
@@ -143,7 +144,7 @@ class webBot(object):
 		balanceFloat = float(balance.replace(',',''))
 
 
-		if balanceFloat > 2200:
+		if balanceFloat > 22:
 			result=True
 		else:
 			result=False
