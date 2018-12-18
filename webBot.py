@@ -40,12 +40,17 @@ class webBot(object):
 		self.read_local_variables()
 		self.timeout = 180
 		self.currentBalance = 0
+		self.actualPay = 3386
+		self.sparePay = self.actualPay - self.transfers[0][2]
+		print self.sparePay
 		display = Display(visible=0, size=(1024, 768))
 		display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
 		if self.qBeenPaid():
 			#Transfer pay
+			if self.sparePay > 10:
+				self.transfer(self.local_variables['CurrentAccount'], self.local_variables['Spare'], str(self.sparePay))
 			for a in self.transfers:
 				self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
 		else:
@@ -144,7 +149,7 @@ class webBot(object):
 		balanceFloat = float(balance.replace(',',''))
 
 
-		if balanceFloat > 22:
+		if balanceFloat > 2200:
 			result=True
 		else:
 			result=False
