@@ -40,7 +40,7 @@ class webBot(object):
 		self.read_local_variables()
 		self.timeout = 180
 		self.currentBalance = 0
-		self.actualPay = 3386
+		self.actualPay = 2629
 		self.sparePay = self.actualPay - self.transfers[0][2]
 		print self.sparePay
 		display = Display(visible=0, size=(1024, 768))

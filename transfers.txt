@@ -6,3 +6,7 @@ MonthlyStorage,CouncilTax,184.00
 MonthlyStorage,Mortgage,754.80
 MonthlyStorage,Spare,300.00
 MonthlyStorage,Water,30.00
+MonthlyStorage,CurrentAccount,30.00
+Bills,CurrentAccount,100
+Bills,CurrentAccount,10
+GasAndElectric,CurrentAccount,94
