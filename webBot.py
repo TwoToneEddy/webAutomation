@@ -42,19 +42,26 @@ class webBot(object):
 		self.currentBalance = 0
 		self.actualPay = 2629
 		self.sparePay = self.actualPay - self.transfers[0][2]
+		self.payday = 0
 		print self.sparePay
 		display = Display(visible=0, size=(1024, 768))
 		display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
-		if self.qBeenPaid():
-			#Transfer pay
-			if self.sparePay > 10:
-				self.transfer(self.local_variables['CurrentAccount'], self.local_variables['Spare'], str(self.sparePay))
-			for a in self.transfers:
-				self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
+		if self.payday==1:
+			if self.qBeenPaid():
+				#Transfer pay
+				if self.sparePay > 10:
+					self.transfer(self.local_variables['CurrentAccount'], self.local_variables['Spare'], str(self.sparePay))
+				for a in self.transfers:
+					self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
+			else:
+				print "Not been paid"
 		else:
-			print "Not been paid"
+			print "First of month"
+			for a in self.firstOfMonth:
+				self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
+
 
 		self.browser.close()
 
@@ -66,11 +73,17 @@ class webBot(object):
 				(key,val) = line.split(',')
 				self.local_variables[key] = val.strip('\n')
 		self.transfers = []
+		self.firstOfMonth = []
 
 		with open('transfers.txt') as file:
 			for line in file:
 				(src,dest,val) = line.split(',')
 				self.transfers.append((src.strip('\n'),dest.strip('\n'),float(val.strip('\n'))))
+
+		with open('firstOfMonth.txt') as file:
+			for line in file:
+				(src,dest,val) = line.split(',')
+				self.firstOfMonth.append((src.strip('\n'),dest.strip('\n'),float(val.strip('\n'))))
 
 
 
