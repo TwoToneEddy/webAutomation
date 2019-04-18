@@ -1,8 +1,8 @@
-CurrentAccount,MonthlyStorage,2546.0
-MonthlyStorage,Bills,503.92
-MonthlyStorage,GasAndElectric,94.00
-MonthlyStorage,TvLicense,12.55
-MonthlyStorage,CouncilTax,191.00
-MonthlyStorage,Mortgage,754.80
-MonthlyStorage,Spare,309.00
-MonthlyStorage,Water,30.00
+Dummy,MonthlyStorage,2546
+CurrentAccount,MonthlyStorage,621.53
+CurrentAccount,Bills,392
+CurrentAccount,TvLicense,12.55
+CurrentAccount,CouncilTax,191.00
+CurrentAccount,Mortgage,754.80
+CurrentAccount,Spare,300.00
+CurrentAccount,Water,30.00

@@ -40,7 +40,7 @@ class webBot(object):
 		self.read_local_variables()
 		self.timeout = 180
 		self.currentBalance = 0
-		self.actualPay = 2780
+		self.actualPay = 3063
 		self.sparePay = self.actualPay - self.transfers[0][2]
 		self.payday = 1
 		print self.sparePay
@@ -53,8 +53,9 @@ class webBot(object):
 				#Transfer pay
 				if self.sparePay > 10:
 					self.transfer(self.local_variables['CurrentAccount'], self.local_variables['Spare'], str(self.sparePay))
-				for a in self.transfers:
-					self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
+				for index,a in enumerate(self.transfers):
+					if(index>0):
+						self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
 			else:
 				print "Not been paid"
 		else:
