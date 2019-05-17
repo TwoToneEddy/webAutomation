@@ -1,6 +1,6 @@
 Dummy,MonthlyStorage,2546
-CurrentAccount,MonthlyStorage,621.53
-CurrentAccount,Bills,392
+CurrentAccount,MonthlyStorage,621.73
+CurrentAccount,Bills,382
 CurrentAccount,TvLicense,12.55
 CurrentAccount,CouncilTax,191.00
 CurrentAccount,Mortgage,754.80
