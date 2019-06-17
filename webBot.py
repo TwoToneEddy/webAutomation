@@ -1,30 +1,30 @@
 # Must have the file localVariables.txt in /home with the following content:
 # surnameStr,hudson
-# card0,9999
-# card1,9999
-# card2,9999
-# card3,9999
-# sortcode1Str,99
-# sortcode2Str,99
-# sortcode3Str,99
-# accountNoStr,99999999
-# webSiteStr,https://bank.barclays.co.uk/olb/authlogin/loginAppContainer.do#/identification
-# webSiteStr1,https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
-# geckoPathStr,/home/lee/Downloads/geckodriver
-# passcode,99999
-# memorable,aaaaaa
-# CurrentAccount,99999999
-# MonthlyStorage,99999999
-# Bills,99999999
-# Spare,99999999
-# CouncilTax,99999999
-# Water,99999999
-# TvLicense,99999999
-# MarcsCard,99999999
-# BikeMoney,99999999
-# GasAndElectric,99999999
-# sortCode,99999999
-# Mortgage,99999999
+#card0,9999
+#card1,9999
+#card2,9999
+#card3,9999
+#sortcode1Str,99
+#sortcode2Str,99
+#sortcode3Str,99
+#accountNoStr,99999999
+#webSiteStr,https://bank.barclays.co.uk/olb/authlogin/loginAppContainer.do#/identification
+#webSiteStr1,https://bank.barclays.co.uk/olb/auth/MobiLoginLink_displayWithNoCookieWithAccount.action
+#geckoPathStr,/home/lee/Downloads/geckodriver
+#passcode,99999
+#memorable,oxford
+#CurrentAccount,99999999
+#MonthlyStorage,99999999
+#Bills,99999999
+#Spare,99999999
+#CouncilTax,99999999
+#Water,99999999
+#TvLicense,99999999
+#MarcsCard,99999999
+#BikeMoney,99999999
+#GasAndElectric,99999999
+#sortCode,99999999
+#Mortgage,99999999
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
