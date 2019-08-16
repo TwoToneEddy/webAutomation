@@ -40,7 +40,7 @@ class webBot(object):
 		self.read_local_variables()
 		self.timeout = 180
 		self.currentBalance = 0
-		self.actualPay = 2762
+		self.actualPay = 2559
 		self.sparePay = self.actualPay - self.transfers[0][2]
 		self.payday = 1
 		print self.sparePay
@@ -51,7 +51,7 @@ class webBot(object):
 		if self.payday==1:
 			if self.qBeenPaid():
 				#Transfer pay
-				if self.sparePay > 10:
+				if self.sparePay > 5:
 					self.transfer(self.local_variables['CurrentAccount'], self.local_variables['Spare'], str(self.sparePay))
 				for index,a in enumerate(self.transfers):
 					if(index>0):
@@ -163,7 +163,7 @@ class webBot(object):
 		balanceFloat = float(balance.replace(',',''))
 
 
-		if balanceFloat > 2200:
+		if balanceFloat > 2000:
 			result=True
 		else:
 			result=False
