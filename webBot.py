@@ -40,9 +40,12 @@ class webBot(object):
 		self.read_local_variables()
 		self.timeout = 180
 		self.currentBalance = 0
-		self.actualPay = 2559
-		self.sparePay = self.actualPay - self.transfers[0][2]
+		# Fill This in!!!!!
+		self.actualPay = 2600
 		self.payday = 1
+		self.paydayBillsTaken = 1 # Not implemented
+
+		self.sparePay = self.actualPay - self.transfers[0][2]
 		print self.sparePay
 		display = Display(visible=0, size=(1024, 768))
 		display.start()
@@ -51,6 +54,7 @@ class webBot(object):
 		if self.payday==1:
 			if self.qBeenPaid():
 				#Transfer pay
+				#If been paid more than usual stuff this into spare account
 				if self.sparePay > 5:
 					self.transfer(self.local_variables['CurrentAccount'], self.local_variables['Spare'], str(self.sparePay))
 				for index,a in enumerate(self.transfers):

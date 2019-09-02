@@ -1,3 +1,4 @@
 Mortgage,CurrentAccount,754.80
-CouncilTax,CurrentAccount,164.00
-Bills,CurrentAccount,100.20
+CouncilTax,CurrentAccount,191.00
+Bills,CurrentAccount,11.00
+CurrentAccount,Bills,249.00
