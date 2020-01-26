@@ -33,6 +33,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from pyvirtualdisplay import Display
 import datetime
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 
 class webBot(object):
 	def __init__(self):
@@ -41,13 +43,13 @@ class webBot(object):
 		self.timeout = 180
 		self.currentBalance = 0
 		# Fill This in!!!!!
-		self.actualPay = 2600
-		self.payday = 1
+		self.actualPay = 3119
+		self.payday = 0
 		self.paydayBillsTaken = 1 # Not implemented
 
 		self.sparePay = self.actualPay - self.transfers[0][2]
 		print self.sparePay
-		display = Display(visible=0, size=(1024, 768))
+		display = Display(visible=1, size=(1024, 768))
 		display.start()
 		self.browser = webdriver.Firefox(executable_path=self.local_variables['geckoPathStr'])
 		self.login()
@@ -64,8 +66,9 @@ class webBot(object):
 				print "Not been paid"
 		else:
 			print "First of month"
-			for a in self.firstOfMonth:
-				self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
+			self.transfer(self.local_variables['CurrentAccount'],self.local_variables['Spare'],str(1))
+			#for a in self.firstOfMonth:
+				#self.transfer(self.local_variables[a[0]],self.local_variables[a[1]],str(a[2]))
 
 
 		self.browser.close()
@@ -103,12 +106,16 @@ class webBot(object):
 		# First login screen
 		# Get all elements needed on first login page
 		print "Finding elements on first page"
-		surname = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"surname")))
+
+		cardNoRadButton = WebDriverWait(self.browser, self.timeout).until(EC.presence_of_element_located((By.ID, "label-sortCode-main")))
+		print "Found radio button"
+		cardNoRadButton.click()
+		surname = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.ID,"surname0")))
 		sc1 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"sortCodeSet1")))
 		sc2 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"sortCodeSet2")))
 		sc3 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"sortCodeSet3")))
 		acc_no = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"accountNumber")))
-		next_button = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.ID,"Next")))
+		next_button = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"""/html/body/div[1]/div/div/div[1]/div/div[1]/div[1]/div[1]/div[4]/section/form/div/div/div/div[11]/div/button""")))
 		print "Found all elements on first page"
 
 		# Input required credentials into fields and click next
@@ -123,33 +130,63 @@ class webBot(object):
 		# Second login screen
 		# Get all elements needed on second login page
 		print "Finding elements on second page"
-		passcode = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"//input[@name = 'passcode']")))
-		memorable_word_l1 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"firstMemorableCharacter")))
-		memorable_word_l2 = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.NAME,"secondMemorableCharacter")))
-		login_btn = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.ID,"Login")))
+
+
+
+		passcode = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"//*[@id='passcode0']")))
+		memorable_word_l1Sel = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"""/html/body/div[1]/div/div/div[1]/div/div[1]/div[1]/div[1]/div[5]/div/div/div/div/ng-include/div/div[7]/div/div/div[2]/div[1]/div[2]/div""")))
+		memorable_word_l2Sel = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"""/html/body/div[1]/div/div/div[1]/div/div[1]/div[1]/div[1]/div[5]/div/div/div/div/ng-include/div/div[7]/div/div/div[2]/div[1]/div[3]/div""")))
+		login_btn = WebDriverWait(self.browser,self.timeout).until(EC.presence_of_element_located((By.XPATH,"//*[@id='btn-login-authSFA']")))
 		print "Found all elements on second page"
 
-		# Send passcode
-		passcode.send_keys(self.local_variables['passcode'])
-		print "Passcode Sent"
+
+
+
+
 
 		# Get page source to determine which memorable characters are needed
 		src = self.browser.page_source
 
 		# Iterate through the potential characers, checking if the text is on the page and
 		# send that character to the correct element
-		found_first = False
+		foundFirst = False
 		index = 0
 		while index < 8:
-			if ("Select letter " + str(index) in src):
-				if found_first == False:
-					print "First memorable character sent"
-					memorable_word_l1.send_keys(self.local_variables['memorable'][index-1])
-					found_first = True
-				else:
-					print "Second memorable character sent"
-					memorable_word_l2.send_keys(self.local_variables['memorable'][index-1])
+			if(foundFirst==False):
+				if (str(index)+"st" in src):
+					firstMemChar = index-1
+					foundFirst=True
+				if (str(index)+"rd" in src):
+					firstMemChar = index-1
+					foundFirst=True
+				if (str(index)+"nd" in src):
+					firstMemChar = index-1
+					foundFirst=True
+				if (str(index)+"th" in src):
+					firstMemChar = index-1
+					foundFirst=True
+			else:
+				if (str(index)+"st" in src):
+					secondMemChar = index-1
+				if (str(index)+"rd" in src):
+					secondMemChar = index-1
+				if (str(index)+"nd" in src):
+					secondMemChar = index-1
+				if (str(index)+"th" in src):
+					secondMemChar = index-1
 			index += 1
+
+		N = 7
+		actions = ActionChains(self.browser)
+		for a in range(N):
+			actions = actions.send_keys(Keys.TAB)
+		actions = actions.send_keys(self.local_variables['memorable'][firstMemChar])
+		actions = actions.send_keys(Keys.TAB)
+		actions = actions.send_keys(self.local_variables['memorable'][secondMemChar])
+		actions.perform()
+
+		passcode.send_keys(self.local_variables['passcode'])
+		print "Passcode Sent"
 
 		# Complete the login process by clicking login button
 		login_btn.click()

@@ -1,6 +1,6 @@
 BasicPay,MonthlyStorage,2559
 CurrentAccount,MonthlyStorage,623.10
-CurrentAccount,Bills,391.18
+CurrentAccount,Bills,483.18
 CurrentAccount,CouncilTax,191.00
 CurrentAccount,Mortgage,754.80
 CurrentAccount,Spare,325.00
